@@ -39,10 +39,10 @@ Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user pu
 for question in questions:
     print("-------------------------------")
     print(question, flush=True)
-    for rating in ratings[questions_num]:
+    for rating in ratings[]:
         print(rating)
 
-    answers = input("Enter (A, B, C, D, E):  ").upper()
+    response = input("Enter (A, B, C, D, E):  ").upper()
     question_num += 1
 
 """
