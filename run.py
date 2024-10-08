@@ -1,3 +1,11 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+"""
+Get user input for name and age
+"""
+name = input ("What is your name?  ")
+age = int(input("Enter your age: "))
+
+if age >= 17:
+    print(f"Hello" + {name} "Welcome to the ADHD self assessment tool \n")
+else:
+    print(f"Sorry" + {name} "You must be 17 years or older for this test \n")
+
