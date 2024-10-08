@@ -25,3 +25,9 @@ questions = ("1. How often do you have trouble wrapping up the final details of 
 "5. How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?", 
 "6. How often do you feel overly active and compelled to do things, like you were driven by a motor?")
 
+ratings = (("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"), 
+("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"), 
+("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"), 
+("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"), 
+("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"), 
+("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "Very Often"))
