@@ -27,9 +27,9 @@ questions = ("Question1: ", "Question2: ", "Question3:")
 
 ratings = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
 
-# answers = []
-# questions_num = 0 
-# points = 0 
+answers = []
+question_num = 0 
+points = 0 
 
 """
 Iterate through the tuple questions and display the rating the user choices.
