@@ -50,7 +50,7 @@ for question in questions:
     if response.lower() == "A" or response == "B":
         points = points + 1
 
-if points == 0:
+if points == >5:
     print (f"{name} you do not have any sympthoms that are consistent with ADHD")
 if points == >=6:
     print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
