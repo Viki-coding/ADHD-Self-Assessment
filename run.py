@@ -32,6 +32,7 @@ points = 0
 """
 Iterate through the tuple questions and display the rating the user choices.
 Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
+Ensure user can only put in letters a - e Issue alert otherwise
 """
 
 for question in questions:
@@ -56,6 +57,6 @@ if points == >=6:
 if points == >=12:
     print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
 if point == >= 15:
-    print (f"{name} you sympthoms that are consistent with ADHD we recommend you look into this further")
+    print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
 """
