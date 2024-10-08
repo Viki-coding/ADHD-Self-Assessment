@@ -31,11 +31,19 @@ ratings = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
 # questions_num = 0 
 # points = 0 
 
+"""
+Iterate through the tuple questions and display the rating the user choices.
+Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
+"""
+
 for question in questions:
     print("-------------------------------")
     print(question, flush=True)
     for rating in ratings[questions_num]:
         print(rating)
+
+    answers = input("Enter (A, B, C, D, E):  ").upper()
+    question_num += 1
 
 """
 for question in questions:
