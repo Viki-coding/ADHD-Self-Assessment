@@ -3,6 +3,22 @@ Get user input for name and age
 Error Handling Name - if they put nothing - alert - if they put numbers - alert
 Error Handing Age - if they put nothering - alert - if they put string - alert
 """
+def get_age():
+    """
+    Get age from user
+    :return: integer respresenting age of user
+    """
+    age = int("Enter your age:  ")
+    try:
+        age = int(age)
+        return age
+    except:
+        # Error age is not int
+        print("INCORRECT! Please ensure you enter numbers for your age")
+        age = input("Enter your age: ")
+
+
+
 name = input ("What is your name?  ")
 
 if name == "":
