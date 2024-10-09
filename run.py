@@ -3,27 +3,28 @@ Get user input for name and age
 Error Handling Name - if they put nothing - alert - if they put numbers - alert
 Error Handing Age - if they put nothering - alert - if they put string - alert
 """
-def get_age():
-    """
-    Get age from user
-    :return: integer respresenting age of user
-    Run a while loop to collect valid string of data from the user
-    via terminal, must be a number.  The age must be greater than 17 
-    and less than 110. The loop will continuely request data until data valid. 
-    """
-    while True:
-        print("Please enter your age as a number Example 21")
-        print("You must be 17 years or older for a valid assessment")
+# def get_age():
+    # """
+    # Get age from user
+    # :return: integer respresenting age of user
+    # Run a while loop to collect valid string of data from the user
+    # via terminal, must be a number.  The age must be greater than 17 
+    # and less than 110. The loop will continuely request data until data valid. 
+    # """
+while True:
+    try:
+        age = int(input("Enter your age:  \n"))
+        return(age)) 
+    except:
+        # Error age is not int
+        print("INVALID! Numbers ONLY")
+        age = int(input("Enter your age:  "))
+    else:
+        age <17:
+        print("Sorry you must be 17 to do this test" \n")
+        age = int(input("Enter your age:  "))
 
-        try:
-            age = int(input("Enter your age:  \n"))
-            print(f"You are {age} years old!") 
-        except:
-            # Error age is not int
-            print("INVALID! Numbers ONLY for your age")
-            age = int(input("Enter your age:  "))
-
-    return get_age()
+    # return get_age()
 
 name = input ("What is your name?  ")
 
