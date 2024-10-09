@@ -20,9 +20,12 @@ while True:
         print("INVALID! Numbers ONLY")
         age = int(input("Enter your age:  "))
     else:
-        age <17, >110
-        print("Sorry you must be 17 & alive to do this test \n")
+        age <17
+        print("Sorry you must be 17 and alive to do this test! LOL \n")
         age = int(input("Enter your age:  "))
+       
+
+        
 
     # return get_age()
 
