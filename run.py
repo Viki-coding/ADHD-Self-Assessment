@@ -14,14 +14,14 @@ Error Handing Age - if they put nothering - alert - if they put string - alert
 while True:
     try:
         age = int(input("Enter your age:  \n"))
-        return(age)) 
+        print(age)
     except:
         # Error age is not int
         print("INVALID! Numbers ONLY")
         age = int(input("Enter your age:  "))
     else:
-        age <17:
-        print("Sorry you must be 17 to do this test" \n")
+        age <17, >110
+        print("Sorry you must be 17 & alive to do this test \n")
         age = int(input("Enter your age:  "))
 
     # return get_age()
