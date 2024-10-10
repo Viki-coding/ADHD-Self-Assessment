@@ -20,18 +20,14 @@ def get_age():
         finally:
             age = int(input("Enter your age:  "))
         
-get_age()
- # via terminal, must be a number.  The age must be greater than 17 
-    # and less than 110. The loop will continuely request data until data valid. 
-        
-get_age()
+ get_age()
 
-    else:
-        age <17
-        print("Sorry you must be 17 and alive to do this test! LOL \n")
-        age = int(input("Enter your age:  "))
+   
 
 def validate_age():
+    # via terminal, must be a number.  The age must be greater than 17 
+    # and less than 110. The loop will continuely request data until data valid. 
+        
     """
     Get age from user
     :return: integer representing age of user
