@@ -19,32 +19,19 @@ get_age()
 
    
 
-def validate_age():
-    # via terminal, must be a number.  The age must be greater than 17 
-    # and less than 110. The loop will continuely request data until data valid. 
-        
-    """
-    Get age from user
-    :return: integer representing age of user
-    """
-    # This must be a loop to ensure age is an int
-    age = input("Age: ")
-    try:
-        age = int(age)
-        return age
-    except:
-        # Error age is not int
-        print("Incorrect")
-        age = input("Age: ")
 
 def run():
-    """
-    Runs the entire quiz
-    :return: When done
-    """
-    age = get_age()
-    if age < 17:
-        return
+    age = get_age()    
+    if age <17:
+        print("Sorry you must be 17 to do this test! \n")
+        age = int(input("Enter your age:  "))
+    elif age >110:
+        print("You're too old to worry about ADHD! \n")
+        age = int(input("Enter your age:  "))
+   
+run() 
+
+
 
     # Ask name
 
