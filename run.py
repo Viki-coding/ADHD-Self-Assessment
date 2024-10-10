@@ -14,6 +14,7 @@ def get_age():
             print("INVALID! Please enter your age")
             print(error)
             age = int(input("Enter your age:  \n"))
+    return age
         
 get_age()
 
@@ -29,7 +30,7 @@ def run():
    
 run() 
 
-def get_name()
+def get_name():
     """
     Get users name 
     Validate that it is a string and not numbers or no value
@@ -42,7 +43,7 @@ def get_name()
     else:
         print(f"Hello {name} welcome to the the ADHD assessment")
 
- get_name()
+get_name()
 
     # ask question
 
