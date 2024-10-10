@@ -3,7 +3,7 @@ Get user input for name and age
 Error Handling Name - if they put nothing - alert - if they put numbers - alert
 Error Handing Age - if they put nothering - alert - if they put string - alert
 """
-# def get_age():
+def get_age():
     # """
     # Get age from user
     # :return: integer respresenting age of user
@@ -11,36 +11,85 @@ Error Handing Age - if they put nothering - alert - if they put string - alert
     # via terminal, must be a number.  The age must be greater than 17 
     # and less than 110. The loop will continuely request data until data valid. 
     # """
-while True:
-    try:
-        age = int(input("Enter your age:  \n"))
-        print(age)
-    except:
-        # Error age is not int
-        print("INVALID! Numbers ONLY")
-        age = int(input("Enter your age:  "))
+    while True:
+        try:
+            age = int(input("Enter your age:  \n"))
+            print(age)
+        except:
+            # Error age is not int
+            print("INVALID! Numbers ONLY")
+            age = int(input("Enter your age:  "))
+        
+get_age()
+
     else:
         age <17
         print("Sorry you must be 17 and alive to do this test! LOL \n")
         age = int(input("Enter your age:  "))
-       
 
-        
+def validate_age():
+    """
+    Get age from user
+    :return: integer representing age of user
+    """
+    # This must be a loop to ensure age is an int
+    age = input("Age: ")
+    try:
+        age = int(age)
+        return age
+    except:
+        # Error age is not int
+        print("Incorrect")
+        age = input("Age: ")
 
-    # return get_age()
+def run():
+    """
+    Runs the entire quiz
+    :return: When done
+    """
+    age = get_age()
+    if age < 17:
+        return
 
-name = input ("What is your name?  ")
+    # Ask name
 
-if name == "":
-    print("You did not enter your name!")
+    # ask question
+
+    return
+
+if __name__ == '__main__':
+    run()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def get_name()
+"""
+Get users name 
+Validate that it is a string and not numbers
+"""
     name = input ("What is your name?  ")
 
-age = int(input("Enter your age: "))
+    if name == "":
+        print("You did not enter your name!")
+        name = input ("What is your name?  ")
 
-if age >= 17:
-    print(f"Hello {name} welcome to the ADHD self assessment tool \n")
-else:
-    print(f"Sorry {name}. You must be 17 years or older for this test \n")
+    
+
+    if age >= 17:
+        print(f"Hello {name} welcome to the ADHD self assessment tool \n")
+    else:
+        print(f"Sorry {name}. You must be 17 years or older for this test \n")
 
 
 """
