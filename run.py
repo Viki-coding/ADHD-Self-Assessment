@@ -4,23 +4,18 @@ def get_age():
     # :return: integer respresenting age of user
     # Run a while loop to collect valid string of data from the user
     # """
+    age = input("Enter your age:  \n")
+
     while True:
         try:
-            age = int(input("Enter your age:  \n"))
+            age = int(age)
             print(age)
-        except ValueError:
+        except Exception as error:
             print("INVALID! Please enter your age")
+            print(error)
             age = int(input("Enter your age:  \n"))
-        except TypeError:
-            # Error age is not int
-            print("INVALID! Numbers ONLY")
-            age = int(input("Enter your age:  "))
-        except Exception:
-            age = int(input("Enter your age:  "))
-        finally:
-            age = int(input("Enter your age:  "))
         
- get_age()
+get_age()
 
    
 
