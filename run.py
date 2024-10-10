@@ -17,8 +17,6 @@ def get_age():
         
 get_age()
 
-   
-
 
 def run():
     age = get_age()    
@@ -31,13 +29,23 @@ def run():
    
 run() 
 
+def get_name()
+    """
+    Get users name 
+    Validate that it is a string and not numbers or no value
+    """
+    name = input ("What is your name?  ")
 
+    if name == "":
+        print("You did not enter your name!")
+        name = input ("What is your name?  ")
+    else:
+        print(f"Hello {name} welcome to the the ADHD assessment")
 
-    # Ask name
+ get_name()
 
     # ask question
 
-    return
 
 if __name__ == '__main__':
     run()
@@ -55,16 +63,7 @@ if __name__ == '__main__':
 
 
 
-def get_name()
-"""
-Get users name 
-Validate that it is a string and not numbers
-"""
-    name = input ("What is your name?  ")
 
-    if name == "":
-        print("You did not enter your name!")
-        name = input ("What is your name?  ")
 
     
 
