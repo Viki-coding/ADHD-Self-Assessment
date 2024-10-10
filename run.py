@@ -9,15 +9,12 @@ def get_age():
     while True:
         try:
             age = int(age)
-            print(age)
+            return age
         except Exception as error:
             print("INVALID! Please enter your age")
             print(error)
             age = int(input("Enter your age:  \n"))
-    return age
-        
 get_age()
-
 
 def run():
     age = get_age()    
@@ -43,7 +40,7 @@ def get_name():
     else:
         print(f"Hello {name} welcome to the the ADHD assessment")
 
-get_name()
+
 
     # ask question
 
@@ -52,8 +49,8 @@ if __name__ == '__main__':
     run()
 
 
-
-
+get_age()
+get_name()
 
 
 
