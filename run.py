@@ -54,32 +54,35 @@ def ask_questions():
     answers = []
     question_num = 0 
     points = 0 
+
+    """
+    Iterate through the tuple questions and display the rating the user choices.
+    Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
+    Ensure user can only put in letters a - e Issue alert otherwise
+    """
+
+    for question in questions:
+        print("-------------------------------")
+        print(question, flush=True)
+        for rating in ratings:
+            print(rating)
+
+        response = input("Enter (A, B, C, D, E):  ").upper()
+        question_num += 1
  
 
 def main():
     get_age()
     run() 
     get_name()
+    ask_questions()
     
 if __name__ == '__main__':
     main()
 
 
 
-"""
-Iterate through the tuple questions and display the rating the user choices.
-Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
-Ensure user can only put in letters a - e Issue alert otherwise
-"""
 
-for question in questions:
-    print("-------------------------------")
-    print(question, flush=True)
-    for rating in ratings:
-        print(rating)
-
-    response = input("Enter (A, B, C, D, E):  ").upper()
-    question_num += 1
 
 """
 for question in questions:
