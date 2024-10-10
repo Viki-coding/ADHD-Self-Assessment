@@ -1,24 +1,28 @@
-"""
-Get user input for name and age
-Error Handling Name - if they put nothing - alert - if they put numbers - alert
-Error Handing Age - if they put nothering - alert - if they put string - alert
-"""
 def get_age():
     # """
     # Get age from user
     # :return: integer respresenting age of user
     # Run a while loop to collect valid string of data from the user
-    # via terminal, must be a number.  The age must be greater than 17 
-    # and less than 110. The loop will continuely request data until data valid. 
     # """
     while True:
         try:
             age = int(input("Enter your age:  \n"))
             print(age)
-        except:
+        except ValueError:
+            print("INVALID! Please enter your age")
+            age = int(input("Enter your age:  \n"))
+        except TypeError:
             # Error age is not int
             print("INVALID! Numbers ONLY")
             age = int(input("Enter your age:  "))
+        except Exception:
+            age = int(input("Enter your age:  "))
+        finally:
+            age = int(input("Enter your age:  "))
+        
+get_age()
+ # via terminal, must be a number.  The age must be greater than 17 
+    # and less than 110. The loop will continuely request data until data valid. 
         
 get_age()
 
