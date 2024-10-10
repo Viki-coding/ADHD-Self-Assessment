@@ -45,9 +45,9 @@ def get_name():
 
 def main():
     get_age()
-    get_name()
     run() 
-
+    get_name()
+    
 if __name__ == '__main__':
     main()
 
