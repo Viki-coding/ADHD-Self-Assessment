@@ -1,9 +1,9 @@
 def get_age():
-    # """
-    # Get age from user
-    # :return: integer respresenting age of user
-    # Run a while loop to collect valid string of data from the user
-    # """
+    """
+    Get age from user
+    :return: integer respresenting age of user
+    Run a while loop to collect valid string of data from the user
+    """
     age = input("Enter your age:  \n")
 
     while True:
@@ -23,8 +23,9 @@ def run():
     elif age >110:
         print("You're too old to worry about ADHD! \n")
         age = int(input("Enter your age:  \n"))
+    else:
+        get_name()
    
-
 
 def get_name():
     """
@@ -41,7 +42,19 @@ def get_name():
 
 
 
- # ask question
+def ask_questions():
+    """
+    Insert tuple of assessment questions with options
+    """
+    questions = ("Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", "Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
+    "Question 3: \n How often do you have problems remembering appointments or obligations?", "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", "Question 4: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 5: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?" )
+
+    ratings = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
+
+    answers = []
+    question_num = 0 
+    points = 0 
+ 
 
 def main():
     get_age()
@@ -52,20 +65,6 @@ if __name__ == '__main__':
     main()
 
 
-
-
-
-"""
-Insert assessment questions
-"""
-questions = ("Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", "Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
-"Question 3: \n How often do you have problems remembering appointments or obligations?", "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", "Question 4: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 5: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?" )
-
-ratings = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
-
-answers = []
-question_num = 0 
-points = 0 
 
 """
 Iterate through the tuple questions and display the rating the user choices.
