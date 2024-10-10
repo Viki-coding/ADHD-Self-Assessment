@@ -40,7 +40,7 @@ def get_name():
     else:
         print(f"Hello {name} welcome to the the ADHD assessment")
 
-
+get_name()
 
     # ask question
 
