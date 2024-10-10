@@ -8,24 +8,23 @@ def get_age():
 
     while True:
         try:
-            age = int(age)
-            return age
+            age = int(age) 
         except Exception as error:
             print("INVALID! Please enter your age")
             print(error)
             age = int(input("Enter your age:  \n"))
-get_age()
+        return age
 
 def run():
     age = get_age()    
     if age <17:
         print("Sorry you must be 17 to do this test! \n")
-        age = int(input("Enter your age:  "))
+        age = int(input("Enter your age:  \n"))
     elif age >110:
         print("You're too old to worry about ADHD! \n")
-        age = int(input("Enter your age:  "))
+        age = int(input("Enter your age:  \n"))
    
-run() 
+
 
 def get_name():
     """
@@ -40,35 +39,20 @@ def get_name():
     else:
         print(f"Hello {name} welcome to the the ADHD assessment")
 
-get_name()
 
-    # ask question
 
+ # ask question
+
+def main():
+    get_age()
+    get_name()
+    run() 
 
 if __name__ == '__main__':
-    run()
-
-
-get_age()
-get_name()
+    main()
 
 
 
-
-
-
-
-
-
-
-
-
-    
-
-    if age >= 17:
-        print(f"Hello {name} welcome to the ADHD self assessment tool \n")
-    else:
-        print(f"Sorry {name}. You must be 17 years or older for this test \n")
 
 
 """
