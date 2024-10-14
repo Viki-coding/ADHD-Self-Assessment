@@ -15,15 +15,17 @@ def get_age():
     
 
 def run():
-    age = get_age()    
-    if age <17:
-        print("Sorry you must be 17 to do this test! \n")
-        age = int(input("Enter your age:  \n"))
-    elif age >110:
-        print("You're too old to worry about ADHD! \n")
-        age = int(input("Enter your age:  \n"))
-    else:
-        get_name()
+    while True:
+        age = get_age()    
+        if age <17:
+            print("Sorry you must be 17 to do this test! \n")
+            age = int(input("Enter your age:  \n"))
+        elif age >110:
+            print("You're too old to worry about ADHD! \n")
+            age = int(input("Enter your age:  \n"))
+        else:
+            get_name()
+            break
    
 
 def get_name():
