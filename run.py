@@ -55,7 +55,7 @@ def ask_questions():
     questions = ("Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", "Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
     "Question 3: \n How often do you have problems remembering appointments or obligations?", "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", "Question 4: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 5: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?" )
 
-    Options = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
+    options = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
     """
     Apply an integer score against each possible user choice
     """
@@ -64,6 +64,7 @@ def ask_questions():
     Initialise the total score
     """
     total_score = 0
+    question_num = []
 
  
     """
@@ -75,37 +76,28 @@ def ask_questions():
     for question in questions:
         print("-------------------------------")
         print(question, flush=True)
-        for option in options:
-            print(rating)
+        for option in options[question_num]:
+            print(options)
 
         response = input("Enter (A, B, C, D, E):  ").upper()
-        total_score += ratings[answer]
- 
+        total_score += scoring[answer]
+    
+    """
+    Display if user has symtoms that are consistent with ADHD
+    """
+    if scoring == <=10:
+    print (f"{name} you do not have any sympthoms that are consistent with ADHD")
+    if scoring == >=24:
+        print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
+    if scoring == >=25:
+        print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
+    if scoring == >= 26:
+        print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
-def main():
+ 
     run() 
     ask_questions()
-    
-if __name__ == '__main__':
     main()
+    if __name__ == '__main__':
+  
 
-
-
-
-
-"""
-for question in questions:
-    response = input(question + " ")
-    if response.lower() == "A" or response == "B":
-        points = points + 1
-
-if points == >5:
-    print (f"{name} you do not have any sympthoms that are consistent with ADHD")
-if points == >=6:
-    print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
-if points == >=12:
-    print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
-if point == >= 15:
-    print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
-
-"""
