@@ -56,12 +56,16 @@ def ask_questions():
     "Question 3: \n How often do you have problems remembering appointments or obligations?", "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", "Question 4: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 5: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?" )
 
     Options = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
-    Scoring = {"a": 0, "b":0, "c": 5, "d":10, "e":15}
+    """
+    Apply an integer score against each possible user choice
+    """
+    scoring = {"a": 0, "b":0, "c": 5, "d":10, "e":15}
+    """
+    Initialise the total score
+    """
+    total_score = 0
 
-    answers = []
-    question_num = 0 
-    points = 0 
-
+ 
     """
     Iterate through the tuple questions and display the rating the user choices.
     Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
@@ -71,11 +75,11 @@ def ask_questions():
     for question in questions:
         print("-------------------------------")
         print(question, flush=True)
-        for rating in ratings:
+        for option in options:
             print(rating)
 
         response = input("Enter (A, B, C, D, E):  ").upper()
-        question_num += 1
+        total_score += ratings[answer]
  
 
 def main():
