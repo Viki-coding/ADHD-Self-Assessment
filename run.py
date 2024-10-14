@@ -9,12 +9,16 @@ def get_age():
         try:
             age = int(age) 
             return age
+            break 
         except ValueError:
             print("INVALID! Please enter a valid age")
             age = int(input("Enter your age:  \n"))
     
 
 def run():
+    """
+    User must be over 17 and under 110 to do test 
+    """
     while True:
         age = get_age()    
         if age <17:
@@ -33,13 +37,17 @@ def get_name():
     Get users name 
     Validate that it is a string and not numbers or no value
     """
-    name = input ("What is your name?  ")
-
-    if name == "":
-        print("You did not enter your name!")
-        name = input ("What is your name?  ")
-    else:
-        print(f"Hello {name} welcome to the the ADHD assessment")
+    
+    while True:
+        name = input("What is your name?  \n")
+        if name == "":
+            print("You did not enter your name!")
+            name = input ("What is your name?  \n")
+        elif not name.isalpha():
+            print("Name should only contain letters")
+        else:
+            print(f"Hello {name} welcome to the the ADHD assessment")
+            break 
 
 
 
