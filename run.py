@@ -8,11 +8,10 @@ def get_age():
         age = input("Enter your age:  \n")
         try:
             age = int(age) 
-            return age
-            break 
+            return age 
         except ValueError:
             print("INVALID! Please enter a valid age")
-            age = int(input("Enter your age:  \n"))
+            
     
 
 def run():
@@ -23,10 +22,8 @@ def run():
         age = get_age()    
         if age <17:
             print("Sorry you must be 17 to do this test! \n")
-            age = int(input("Enter your age:  \n"))
         elif age >110:
             print("You're too old to worry about ADHD! \n")
-            age = int(input("Enter your age:  \n"))
         else:
             get_name()
             break
@@ -49,7 +46,7 @@ def get_name():
             print(f"Hello {name} welcome to the the ADHD assessment")
             break 
 
-
+get_name()
 
 def ask_questions():
     """
@@ -58,7 +55,8 @@ def ask_questions():
     questions = ("Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", "Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
     "Question 3: \n How often do you have problems remembering appointments or obligations?", "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", "Question 4: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 5: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?" )
 
-    ratings = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
+    Options = ("A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often")
+    Scoring = {"a": 0, "b":0, "c": 5, "d":10, "e":15}
 
     answers = []
     question_num = 0 
@@ -81,9 +79,7 @@ def ask_questions():
  
 
 def main():
-    get_age()
     run() 
-    get_name()
     ask_questions()
     
 if __name__ == '__main__':
