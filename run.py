@@ -9,9 +9,8 @@ def get_age():
         try:
             age = int(age) 
             return age
-        except Exception as error:
-            print("INVALID! Please enter your age")
-            print(error)
+        except ValueError:
+            print("INVALID! Please enter a valid age")
             age = int(input("Enter your age:  \n"))
     
 
