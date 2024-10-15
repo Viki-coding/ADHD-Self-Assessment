@@ -25,7 +25,7 @@ def get_name():
         elif not name.isalpha():
             print("Name should only contain letters")
         else:
-            print(f"Hello {name} welcome to the the ADHD assessment")
+            print(f"Hello {name} welcome to the ADHD assessment")
             return name           
     
 def run():
@@ -34,9 +34,9 @@ def run():
     """
     while True:
         age = get_age()    
-        if age <17:
+        if age < 17:
             print("Sorry you must be 17 to do this test! \n")
-        elif age >110:
+        elif age > 110:
             print("You're too old to worry about ADHD! \n")
         else:
             name = get_name()
@@ -82,29 +82,25 @@ def ask_questions():
             if response in scoring:
                 total_score += scoring[response]
                 break
-        else:
+            else:
             print("Invalid response.  Please enter A, B, C, D or E")
     
     """
     Display if user has symtoms that are consistent with ADHD
     """
-    if total_score <=10:
+    if total_score <= 10:
         print (f"{name} you do not have any sympthoms that are consistent with ADHD")
-    elif total_score >=24:
+    elif total_score >= 24:
         print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
-    elif total_score >=25:
+    elif total_score >= 25:
         print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
     elif total_score >= 26:
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
- def main():
-    age = get_age()
-    name = get_name()
+ 
     if __name__ == '__main__':
-        ask_age()
-        ask_name()
         run() 
-        ask_questions()
+    
        
   
 
