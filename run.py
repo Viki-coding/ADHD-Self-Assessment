@@ -49,12 +49,12 @@ def ask_questions(name):
     Insert dictionary of assessment questions with options
     """
     questions = [
-        " Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", 
-        " Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
-        " Question 3: \n How often do you have problems remembering appointments or obligations?", 
-        " Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", 
-        " Question 5: \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", 
-        " Question 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?"
+        " QUESTION 1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", 
+        " QUESTION 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?\n", 
+        " QUESTION 3: \n How often do you have problems remembering appointments or obligations?\n", 
+        " QUESTION 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?\n", 
+        " QUESTION 5: \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?\n", 
+        " QUESTION 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?\n"
     ]
 
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often"]
@@ -90,18 +90,18 @@ def ask_questions(name):
     """
     Display if user has symptoms that are consistent with ADHD
     """
-    print("---------------------------------------------------------------------")
-    print("--------------------       RESULTS    -------------------------------")
-    print("---------------------------------------------------------------------\n")
+    print("    ---------------------------------------------------------------------")
+    print("    --------------------       RESULTS    -------------------------------")
+    print("    ---------------------------------------------------------------------\n")
 
     if total_score <= 10:
         print (f"{name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
     elif total_score >= 15:
-        print (f"{name} you scored {total_score} You have some minor symptoms that are consistent with ADHD we recommend you look into this further")
+        print (f"{name} you scored {total_score} You have some minor symptoms that are consistent \n with ADHD we recommend you look into this further")
     elif total_score >= 45:
-        print (f"{name} you scored {total_score} You have symptoms that are consistent with ADHD we recommend you look into this further")
+        print (f"{name} you scored {total_score} You have symptoms that are consistent \n with ADHD we recommend you look into this further")
     elif total_score >= 70:
-        print (f"{name} you scored {total_score} Your symptoms are consistent with ADHD we highly recommend you look into this further")
+        print (f"{name} you scored {total_score} Your symptoms are consistent with ADHD \n we highly recommend you look into this further")
 
 print("---------------------------------------------------------------------")
 print("                  Welcome to the ADHD assessment tool              \n")
