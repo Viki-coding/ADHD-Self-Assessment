@@ -39,7 +39,8 @@ def run():
         elif age >110:
             print("You're too old to worry about ADHD! \n")
         else:
-            get_name()
+            name = get_name()
+            ask_questions(name)
             break
    
 
