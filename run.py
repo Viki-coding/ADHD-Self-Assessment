@@ -87,13 +87,13 @@ def ask_questions():
     """
     Display if user has symtoms that are consistent with ADHD
     """
-    if scoring <=10:
+    if total_score <=10:
         print (f"{name} you do not have any sympthoms that are consistent with ADHD")
-    if scoring >=24:
+    elif total_score >=24:
         print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
-    if scoring >=25:
+    elif total_score >=25:
         print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
-    if scoring >= 26:
+    elif total_score >= 26:
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
  
