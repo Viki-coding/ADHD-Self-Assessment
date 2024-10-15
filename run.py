@@ -64,23 +64,25 @@ def ask_questions():
     Initialise the total score
     """
     total_score = 0
-    question_num = []
-
- 
+   
     """
-    Iterate through the tuple questions and display the rating the user choices.
+    Iterate through the questions and display the rating the user choices.
     Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
     Ensure user can only put in letters a - e Issue alert otherwise
     """
 
     for question in questions:
         print("-------------------------------")
-        print(question, flush=True)
-        for option in options[question_num]:
+        print(question)
+        for option in options:
             print(options)
-
-        response = input("Enter (A, B, C, D, E):  ").upper()
-        total_score += scoring[answer]
+        while True: 
+            response = input("Enter (A, B, C, D, E):  ").upper()
+            if response in scoring:
+            total_score += scoring[response]
+            break
+        else:
+            print("Invalid response.  Please enter A, B, C, D or E")
     
     """
     Display if user has symtoms that are consistent with ADHD
