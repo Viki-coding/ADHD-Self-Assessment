@@ -76,11 +76,11 @@ def ask_questions(name):
     for question in questions:
         print("------------------------------------------------------------------------")
         print(question)
+        print("------------------------------------------------------------------------")
         for option in options:
-            print("------------------------------------------------------------------------")
             print(option)
         while True: 
-            response = input("Enter A, B, C, D, or E:  /n").lower()
+            response = input("Enter A, B, C, D, or E:  ").lower()
             if response in scoring:
                 total_score += scoring[response]
                 break
