@@ -88,20 +88,25 @@ def ask_questions(name):
     """
     Display if user has symtoms that are consistent with ADHD
     """
-    if total_score <= 10:
-        print (f"{name} you do not have any sympthoms that are consistent with ADHD")
-    elif total_score >= 24:
-        print (f"{name} you have some sympthoms that are consistent with ADHD we recommend you look into this further")
-    elif total_score >= 25:
-        print (f"{name} you have sympthoms that are consistent with ADHD we recommend you look into this further")
-    elif total_score >= 26:
-        print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
+    print("---------------------------------------------------------------------")
+    print("----------------------------RESULTS----------------------------------")
+    print("-------------------------------------------------------------------\n")
 
-print("------------------------------------------")
-print("    Welcome to the ADHD assessment tool   \n")
-print("----------------IMPORTANT-----------------")
-print("  This program was developed as an coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
-print("------------------------------------------\n")
+    if total_score <= 10:
+        print (f"{name} you scored {total_score} which  means you do not have any symptoms that are consistent with ADHD")
+    elif total_score >= 24:
+        print (f"{name} you scored {total_score} which  means you have some symptoms that are consistent with ADHD we recommend you look into this further")
+    elif total_score >= 25:
+        print (f"{name} you scored {total_score} which  means you have symptoms that are consistent with ADHD we recommend you look into this further")
+    elif total_score >= 26:
+        print (f"{name} you scored {total_score} which  means you have symptoms that are consistent with ADHD we highly recommend you look into this further")
+
+print("---------------------------------------------------------------------")
+print("                  Welcome to the ADHD assessment tool              \n")
+print("---------------------------------------------------------------------")
+print("----------------------------IMPORTANT--------------------------------")
+print("  This program was developed as a coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
+print("-------------------------------------------------------------------\n")
 
 if __name__ == '__main__':
     run() 
