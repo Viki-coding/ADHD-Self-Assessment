@@ -78,7 +78,7 @@ def ask_questions(name):
         for option in options:
             print(options)
         while True: 
-            response = input("Enter (A, B, C, D, E):  ").upper()
+            response = input("Enter (A, B, C, D, E):  ").lower()
             if response in scoring:
                 total_score += scoring[response]
                 break
