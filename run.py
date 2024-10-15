@@ -44,7 +44,7 @@ def run():
             break
    
 
-def ask_questions():
+def ask_questions(name):
     """
     Insert dictionary of assessment questions with options
     """
@@ -98,8 +98,8 @@ def ask_questions():
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
  
-    if __name__ == '__main__':
-        run() 
+if __name__ == '__main__':
+    run() 
     
        
   
