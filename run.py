@@ -83,7 +83,7 @@ def ask_questions():
                 total_score += scoring[response]
                 break
             else:
-            print("Invalid response.  Please enter A, B, C, D or E")
+                print("Invalid response.  Please enter A, B, C, D or E")
     
     """
     Display if user has symtoms that are consistent with ADHD
