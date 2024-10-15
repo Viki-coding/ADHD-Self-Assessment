@@ -76,7 +76,7 @@ def ask_questions(name):
         print("-------------------------------")
         print(question)
         for option in options:
-            print(options)
+            print(option)
         while True: 
             response = input("Enter (A, B, C, D, E):  ").lower()
             if response in scoring:
