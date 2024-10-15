@@ -97,12 +97,11 @@ def ask_questions():
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
  
-
     if __name__ == '__main__':
-        get_age()
-        get_name()
+        ask_age()
+        ask_name()
         run() 
         ask_questions()
-        main()
+       
   
 
