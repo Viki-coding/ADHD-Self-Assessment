@@ -49,11 +49,11 @@ def ask_questions(name):
     Insert dictionary of assessment questions with options
     """
     questions = [
-        "Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", 
-        "Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
-        "Question 3: \n How often do you have problems remembering appointments or obligations?", 
-        "Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", 
-        "Question 5: \nHow often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?"
+        " Question1: \n How often do you have trouble wrapping up the final details of a project, \n once the challenging parts have been done?\n", 
+        " Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
+        " Question 3: \n How often do you have problems remembering appointments or obligations?", 
+        " Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", 
+        " Question 5: \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?"
     ]
 
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often"]
