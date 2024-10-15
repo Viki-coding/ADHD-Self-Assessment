@@ -11,23 +11,6 @@ def get_age():
             return age 
         except ValueError:
             print("INVALID! Please enter a valid age")
-            
-    
-
-def run():
-    """
-    User must be over 17 and under 110 to do test 
-    """
-    while True:
-        age = get_age()    
-        if age <17:
-            print("Sorry you must be 17 to do this test! \n")
-        elif age >110:
-            print("You're too old to worry about ADHD! \n")
-        else:
-            get_name()
-            break
-   
 
 def get_name():
     """
@@ -43,7 +26,24 @@ def get_name():
             print("Name should only contain letters")
         else:
             print(f"Hello {name} welcome to the the ADHD assessment")
-            break 
+            break           
+    
+def run():
+    """
+    User must be over 17 and under 110 to do test 
+    """
+    while True:
+        age = get_age()    
+        if age <17:
+            print("Sorry you must be 17 to do this test! \n")
+        elif age >110:
+            print("You're too old to worry about ADHD! \n")
+        else:
+            get_name()
+            break
+   
+
+
 
 
 def ask_questions():
