@@ -79,8 +79,8 @@ def ask_questions():
         while True: 
             response = input("Enter (A, B, C, D, E):  ").upper()
             if response in scoring:
-            total_score += scoring[response]
-            break
+                total_score += scoring[response]
+                break
         else:
             print("Invalid response.  Please enter A, B, C, D or E")
     
