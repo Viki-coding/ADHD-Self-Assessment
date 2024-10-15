@@ -39,14 +39,12 @@ def get_name():
         name = input("What is your name?  \n")
         if name == "":
             print("You did not enter your name!")
-            name = input ("What is your name?  \n")
         elif not name.isalpha():
             print("Name should only contain letters")
         else:
             print(f"Hello {name} welcome to the the ADHD assessment")
             break 
 
-get_name()
 
 def ask_questions():
     """
@@ -95,9 +93,12 @@ def ask_questions():
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
  
-    run() 
-    ask_questions()
-    main()
+
     if __name__ == '__main__':
+        get_age()
+        get_name()
+        run() 
+        ask_questions()
+        main()
   
 
