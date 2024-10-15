@@ -97,7 +97,12 @@ def ask_questions(name):
     elif total_score >= 26:
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
-print("Welcome to the ADHD assessment tool. \n This program was developed as an coding educational challenge and is not a \n accurate ADHD diagnosis tool. \n Contact your GP if you are concerned about ADHD")
+print("-------------------------------")
+print("Welcome to the ADHD assessment tool.")
+print("----------IMPORTANT------------")
+print("This program was developed as an coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
+print("-------------------------------")
+
 if __name__ == '__main__':
     run() 
     
