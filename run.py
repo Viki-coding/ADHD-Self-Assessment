@@ -26,7 +26,7 @@ def get_name():
             print("Name should only contain letters")
         else:
             print(f"Hello {name} welcome to the the ADHD assessment")
-            break           
+            return name           
     
 def run():
     """
@@ -96,7 +96,9 @@ def ask_questions():
     elif total_score >= 26:
         print (f"{name} you have sympthoms that are consistent with ADHD we highly recommend you look into this further")
 
- 
+ def main():
+    age = get_age()
+    name = get_name()
     if __name__ == '__main__':
         ask_age()
         ask_name()
