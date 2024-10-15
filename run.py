@@ -1,7 +1,7 @@
 def get_age():
     """
     Get age from user
-    :return: integer respresenting age of user
+    :return: integer representing  age of user
     Run a while loop to collect valid string of data from the user
     """
     while True:
@@ -53,7 +53,8 @@ def ask_questions(name):
         " Question 2: \n How often do you have difficulty getting things in order \n when you have to do a task that requires organization?", 
         " Question 3: \n How often do you have problems remembering appointments or obligations?", 
         " Question 4: \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?", 
-        " Question 5: \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", "Qestion 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?"
+        " Question 5: \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?", 
+        " Question 6: \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?"
     ]
 
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often"]
@@ -68,17 +69,18 @@ def ask_questions(name):
    
     """
     Iterate through the questions and display the rating the user choices.
-    Ask user for the input a, b, c, d, or e.  Apply .upper() to input incase user puts in a lowercase letter
+    Ask user for the input a, b, c, d, or e.  Apply .upper() to input encase user puts in a lowercase letter
     Ensure user can only put in letters a - e Issue alert otherwise
     """
 
     for question in questions:
-        print("-------------------------------")
+        print("------------------------------------------------------------------------")
         print(question)
         for option in options:
+            print("------------------------------------------------------------------------")
             print(option)
         while True: 
-            response = input("Enter (A, B, C, D, E):  ").lower()
+            response = input("Enter A, B, C, D, or E:  /n").lower()
             if response in scoring:
                 total_score += scoring[response]
                 break
@@ -86,27 +88,27 @@ def ask_questions(name):
                 print("Invalid response.  Please enter A, B, C, D or E")
     
     """
-    Display if user has symtoms that are consistent with ADHD
+    Display if user has symptoms that are consistent with ADHD
     """
     print("---------------------------------------------------------------------")
-    print("----------------------------RESULTS----------------------------------")
-    print("-------------------------------------------------------------------\n")
+    print("--------------------       RESULTS    -------------------------------")
+    print("---------------------------------------------------------------------\n")
 
     if total_score <= 10:
-        print (f"{name} you scored {total_score} which  means you do not have any symptoms that are consistent with ADHD")
-    elif total_score >= 24:
-        print (f"{name} you scored {total_score} which  means you have some symptoms that are consistent with ADHD we recommend you look into this further")
-    elif total_score >= 25:
-        print (f"{name} you scored {total_score} which  means you have symptoms that are consistent with ADHD we recommend you look into this further")
-    elif total_score >= 26:
-        print (f"{name} you scored {total_score} which  means you have symptoms that are consistent with ADHD we highly recommend you look into this further")
+        print (f"{name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
+    elif total_score >= 15:
+        print (f"{name} you scored {total_score} You have some minor symptoms that are consistent with ADHD we recommend you look into this further")
+    elif total_score >= 45:
+        print (f"{name} you scored {total_score} You have symptoms that are consistent with ADHD we recommend you look into this further")
+    elif total_score >= 70:
+        print (f"{name} you scored {total_score} Your symptoms are consistent with ADHD we highly recommend you look into this further")
 
 print("---------------------------------------------------------------------")
 print("                  Welcome to the ADHD assessment tool              \n")
 print("---------------------------------------------------------------------")
-print("----------------------------IMPORTANT--------------------------------")
-print("  This program was developed as a coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
-print("-------------------------------------------------------------------\n")
+print("----------------------     IMPORTANT    -----------------------------\n")
+print(" This program was developed as a coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
+print("---------------------------------------------------------------------\n")
 
 if __name__ == '__main__':
     run() 
