@@ -1,6 +1,9 @@
 <h1> ADHD ASSESSMENT TOOL</h1>
 
-<h1> Introductino </h1>
+LIVE LINK SITE:
+https://adhd-assessment-a99f3a28cb71.herokuapp.com/
+
+<h1> Introduction </h1>
 This program is an ADHD assessment tool for adults.  
 
 ADHD/ADD Attention Deficit (Hyper) Disorder is a neurodiverse challenge that affects many people.  Many adults don't even realise they have ADHD, many don't reach their full potential due to ADHD.  
@@ -9,7 +12,7 @@ In Ireland today, a formal diagnosis is only done through an Educational Psychol
 
 There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was becuase they were bold but data shows that many have ADHD and if diagnosed correctly with and correct mangement can lead very full and productive lives.  People with ADHD have 'super-powers' that lead them to be able to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
 
-<h2>Description - Project Purpose</h2>
+<h2>Description - Project Purpose - Content </h2>
 
 The user is asked 6 questions with options, these options are scored and the result is based on the users responses.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. It is not a formal diagnosis. 
 
@@ -24,13 +27,16 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
 
 <h2>UX</h2>
 
-<h2>USER STORIES</h2>
+<h2>USER STORIES / GOALS </h2>
 As a GP user I want to log in easily and be able to see the questions I need to ask my patients.
 As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
 As a GP user I want to see the users score to give me an idea if they just have mild symptoms or more significant and recurring symptoms. 
 As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
 
 <h2>Design Choices</h2>
+
+● Design: Colorama, ASCII Art, Flowchart of Logic/Functions, User Feedback
+
 Colour Scheme
 Using a colour contrast checked we checked which font colours stood out best against our base colours.  All receiving good ratings. Graphic illustrated below:
 
@@ -61,7 +67,7 @@ Feature Title / Screenshot / Value to the User
 
 <h2>Technologies Used</h2>
 Python
-
+● Application Features: Python Logic, Data/APIs used (optional)
 
 <h2>Frameworks, Libraries and Programs Used: </h2>
 
@@ -103,25 +109,29 @@ User Experience Assurance
 We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all aspects of the quiz were working correctly as specified with expected and actual outcomes using a methodical approach. We did final testing on the deployed site. 
 
 <h3>Test Evaluation Sheet:</h3>
+● Testing: Validation of Python, Bugs, Input testing, User Stories, (Optional: Automated Testing)
+
 As shown in the evaluation sheet below we navigated around our site and tested all available features to ensure they were working as intended.
 
 <h2>Lighthouse Testing</h2>
 <h2>BUGS</h2>
 <u>Solved Bugs</u>
-I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
+I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to higlight these.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
-One challenging bug was
+While doing some testing I had been quickly entering name or letters without using an uppercase for the first name, so during a systematic check when I did capitalise my first name the following error was displayed.  On looking at my code I discovered I used .upper() method rather than .lower() Once amended it worked. 
 <img width="475" alt="Capital V not being accepted" src="https://github.com/user-attachments/assets/507826cf-1200-4224-ae3f-4647ff561ae1">
+
 
 <img width="576" alt="incorrect  upper for response" src="https://github.com/user-attachments/assets/3ae5859f-9d31-4e50-9e00-b7bcf0226610">
 
 <img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
+Unlike other quizes where there are a few options to choose from I just wanted to display the same survey/questionaire responses. I amended the correct iteration variable and it now works well. 
 
 <img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
-
+On testing I entered 'e' on all my responses which should of displayed the print message that I had a high likelhood of having ADHD when in fact it displayed to me that I had 'mild' symtoms.  When looking at my code I had only used >= to scores rather than a range.  Once I fixed this it worked correctly.
 
 <img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
-
+I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many a youtube video I finally figured it out and it worked correctly. 
 
 
 
@@ -153,6 +163,7 @@ One challenging bug was
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
 
 Heruko Deployment
+● Deployment: Step by step process for deploying to Heroku, API setup (optional)
 
 Log on to Heruko
 https://dashboard.heroku.com/apps
@@ -229,7 +240,7 @@ is alpha
 
 <b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
 
-We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks to our very supportive and positive facilitator Laura Maycock and our new facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks to our very supportive and positive facilitator Laura Maycock and our facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
 <h2>Media/Images</h2>
 Image by of Green Globes in background by Clicker-Free-Vector-Images from Pixabay
@@ -241,5 +252,13 @@ The content text for Flags of the World quiz is written by Viki Mulhall.
 
 <h2>Legal & Ethical Compliance</h2>
 This project is for educational purposes only.
+
+
+
+
+
+
+
+
 
 
