@@ -14,7 +14,7 @@ There is a misconception that many people who were lazy in school, acted up due 
 
 <h2>Description - Project Purpose - Content </h2>
 
-The user is asked 6 questions with options, these options are scored and the result is based on the users responses.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. It is not a formal diagnosis. 
+The user is asked 6 questions with options.  These 5 options remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allowing ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The content reflects the 6 most indicative questions as referenced in XXXX and the responses clarifies the purpose It is not a formal diagnosis. 
 
 The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
 
@@ -28,6 +28,7 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
 <h2>UX</h2>
 
 <h2>USER STORIES / GOALS </h2>
+As a [user], I want to [perform some task] so that I can [achieve some goal]
 As a GP user I want to log in easily and be able to see the questions I need to ask my patients.
 As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
 As a GP user I want to see the users score to give me an idea if they just have mild symptoms or more significant and recurring symptoms. 
@@ -133,7 +134,7 @@ On testing I entered 'e' on all my responses which should of displayed the print
 <img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
 I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many a youtube video I finally figured it out and it worked correctly. 
 
-
+LINK [Link text](https://website-name.com)
 
 <h2>User Experience Assurance</h2>
 <h2>Deployment Steps</h2>
