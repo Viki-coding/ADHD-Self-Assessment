@@ -1,7 +1,7 @@
 <h1> ADHD ASSESSMENT TOOL</h1>
 
-LIVE LINK SITE:
-https://adhd-assessment-a99f3a28cb71.herokuapp.com/
+[LIVE LINK SITE:]
+(https://adhd-assessment-a99f3a28cb71.herokuapp.com/)
 
 <h1> Introduction </h1>
 This program is an ADHD assessment tool for adults.  
