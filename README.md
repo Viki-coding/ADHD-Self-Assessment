@@ -25,6 +25,10 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
 <h2>UX</h2>
 
 <h2>USER STORIES</h2>
+As a GP user I want to log in easily and be able to see the questions I need to ask my patients.
+As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
+As a GP user I want to see the users score to give me an idea if they just have mild symptoms or more significant and recurring symptoms. 
+As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
 
 <h2>Design Choices</h2>
 Colour Scheme
@@ -190,6 +194,37 @@ SOURCE OF LINK
 CONTEXT
 
 <b>General good videos and links to teaching of JS:<b>
+
+
+https://www.youtube.com/watch?v=lVUOrPunRxQ
+Good to explain best practice using the main() function
+
+Inspiration of question format from
+https://www.youtube.com/watch?v=zehwgTB0vV8&t=311s
+Bro 
+______________
+How to workout points from each answer – got some inspiration from approx. 17 mins on this youtube video:
+
+https://www.youtube.com/watch?v=yriw5Zh406s
+Quiz from bro code with def
+
+https://www.youtube.com/watch?v=ag8NtD1e0Kc
+hand man with not alpha and 
+
+https://www.youtube.com/watch?v=LqXIJjcRmGI
+bro and credit card and replace a with 0
+
+CREATE A QUIZ IN PYTHON | learn to code in python for beginners (python tutorial for beginners)
+Maya Bello
+https://www.youtube.com/watch?v=swstbE2bH4k
+Inspiration of match case statements
+Learn Python MATCH-CASE STATEMENTS in 5 minutes! 
+BroCode
+https://www.youtube.com/watch?v=L7tT0NZF-Ag
+
+https://www.youtube.com/watch?v=tb6EYiHtcXU
+is alpha
+![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
 
 
 <b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
