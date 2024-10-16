@@ -241,15 +241,15 @@ is alpha
 
 <b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
 
-We gained inspiration with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube. Thanks to the on-line tutor, Tom and Sean for their expertise and ability to explain some of the 'challenges' I encountered. Thanks to our very supportive and positive facilitator Laura Maycock and our facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A, Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
-<h2>Media/Images</h2>
-Image by of Green Globes in background by Clicker-Free-Vector-Images from Pixabay
-Flag images from Britannica website. 
-Image of logo created in Canva using canva template. 
 
 <h2>CONTENT</h2>
-The content text for Flags of the World quiz is written by Viki Mulhall. 
+[The content for the quiz is from the ADD.org the Attention Deficit Disorder association of America ](https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf)
+
+[This questionaire is used accross America and Canada and the World Health Organisation.] (https://add.org/adhd-questionnaire/)
+
+This program is not an accurage diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionaire which can tell the patient has sympthoms that are highly consistent with ADHD and require further investigation. In the full questionire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
 
 <h2>Legal & Ethical Compliance</h2>
 This project is for educational purposes only.
