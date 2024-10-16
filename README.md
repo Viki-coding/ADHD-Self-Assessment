@@ -17,11 +17,10 @@ The program aims to allow people/GP's to check if they have some symptoms that m
 
 ADHD is heriditary.  A diagnois can help families discover issues they many have been experiencing to be able to gain the correct support and help.  
 
-The target auidence for this tool is people over 17 years of age.  GP's could use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to peoples lives.  
+<h2>User Demographics - Target audience</h2>
+The target auidence for this tool is people over 17 years of age.  GP's can use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to peoples lives.  
 
 Unfortunetly in Ireland the waiting lists for educational pychologists and psychiarists is very long and can be very expensive. To be able to use an on-line tool to rule ADHD in OR out for a patient is hugely important and benefical to both the patient but also the over-burdoned healthcare system. 
-
-<h2>User Demographics - Target audience</h2>
 
 <h2>UX</h2>
 
@@ -50,27 +49,22 @@ Feature Title / Screenshot / Value to the User
 
 <h2>Future Implementation Section</h2>
 
+ - Include more questions to develop the questionaire to be a more accurate assessment tool
+ - Develop other healthcare question checks such as Peri-menopause menopause tools to allow women to assess their symptoms in the security of their own home, allowing them to be more informed to be able to make the next decision into their own health managment.
+ - Sexually Transmitted Disease checker - different sympthoms pertain to different STD's, ofthen embarrising - allow users to assess what they may have while educating them about STDs and informing them of the next steps they need to take.
+ - 
 <h2>Accessibility</h2>
 
 <h2>Technologies Used</h2>
-HTML -  CSS -  JS
+Python
 
 
 <h2>Frameworks, Libraries and Programs Used: </h2>
 
-* Balsamiq Wireframes - used to create wireframes
+
 * Git - version control
 * Git Pod
 * Git Hub - To save and store the files for the website
-* Google Fonts - to import fonts onto the website
-* Font Awesome for iconography on website
-* Favicon.io - to create favicon
-* Coolors - checking colour pallets and their contrast abilities with fonts.
-* Berme.net - to reduce image sizes and convert to .webp
-* Canva - to create logo image
-* Am I Responsive - quick tool to check how responsiveness on various devices and creates display
-* Responsive tool - https://responsivetesttool.com/
-* JSHint to check JS code
 * Spell Check
 
   
@@ -81,6 +75,13 @@ LIGHTHOUSE PERFORMANCE
 VALIDATOR TESTING
 BROWSER COMPATIBILITY
 SCREEN SIZE RESPONSIVENESS
+SMURF
+Speed
+Maintainability
+Utilization
+Reliability
+Fidelity
+
 BUGS RESOLVED AND NOTE SOLUTIONS AND UNRESOLVED
 	
 We performed manual testing on the deployed site and also ran our html, css and js codes through validators.
@@ -106,6 +107,19 @@ As shown in the evaluation sheet below we navigated around our site and tested a
 I came across many bugs while testing the quiz, from missing semi-colons to the reset button not being contained within the centre of the quiz box due to styling errors that were fixed and rectified. I put the HTML and CSS code through W3CValidator and fixed all warnings that were shown.  Having chrome development tool open while creating code and inspect console log was very helping with some aspects of the bug finding.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
 One challenging bug was
+<img width="475" alt="Capital V not being accepted" src="https://github.com/user-attachments/assets/507826cf-1200-4224-ae3f-4647ff561ae1">
+
+<img width="576" alt="incorrect  upper for response" src="https://github.com/user-attachments/assets/3ae5859f-9d31-4e50-9e00-b7bcf0226610">
+
+<img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
+
+<img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
+
+
+<img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
+
+
+
 
 <h2>User Experience Assurance</h2>
 <h2>Deployment Steps</h2>
