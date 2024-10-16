@@ -1,6 +1,6 @@
-ADHD Assessment Tool 
+<h1> ADHD ASSESSMENT TOOL</h1>
 
-<h1> INTRODUCTION </h1>
+<h1> Introductino </h1>
 This program is an ADHD assessment tool for adults.  
 
 ADHD/ADD Attention Deficit (Hyper) Disorder is a neurodiverse challenge that affects many people.  Many adults don't even realise they have ADHD, many don't reach their full potential due to ADHD.  
