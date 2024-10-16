@@ -1,18 +1,25 @@
-READ ME TEMPLATE
+ADHD Assessment Tool 
 
 <h1> INTRODUCTION </h1>
+This program is an ADHD assessment tool for adults.  
+
+ADHD/ADD Attention Deficit (Hyper) Disorder is a neurodiverse challenge that affects many people.  Many adults don't even realise they have ADHD, many don't reach their full potential due to ADHD.  
+
+In Ireland today, a formal diagnosis is only done through an Educational Psychologist or Psychiatrist. The first step when someone is stuggling is to go to visit their GP.  GP's are not all fully up to speed on how difficult is can be to have ADHD and may not fully be aware of the correct questions to ask to be able to refer their patient to correct health professional. 
+
+There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was becuase they were bold but data shows that many have ADHD and if diagnosed correctly with and correct mangement can lead very full and productive lives.  People with ADHD have 'super-powers' that lead them to be able to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
 
 <h2>Description - Project Purpose</h2>
-	(project description, purpose, user demographic)
-	Brief overview:
--	Introduction 
--	What the project aims to accomplish 
--	What the project is
--	Why it exists
--	Who it’s intended form – target audience  - how will it benfit them?
-Aligns Expectations:
--	Sets right expectations
--	Ensures understanding of the project’s purpose and target audience a
+
+The user is asked 6 questions with options, these options are scored and the result is based on the users responses.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. It is not a formal diagnosis. 
+
+The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
+
+ADHD is heriditary.  A diagnois can help families discover issues they many have been experiencing to be able to gain the correct support and help.  
+
+The target auidence for this tool is people over 17 years of age.  GP's could use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to peoples lives.  
+
+Unfortunetly in Ireland the waiting lists for educational pychologists and psychiarists is very long and can be very expensive. To be able to use an on-line tool to rule ADHD in OR out for a patient is hugely important and benefical to both the patient but also the over-burdoned healthcare system. 
 
 <h2>User Demographics - Target audience</h2>
 
