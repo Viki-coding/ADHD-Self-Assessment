@@ -97,11 +97,11 @@ def ask_questions(name):
     if 0 <= total_score <= 3:
         print (f" {name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
     elif 4 <= total_score <= 6:
-        print (f" {name} you scored {total_score}. You have some minor symptoms that are consistent \n with ADHD we recommend you look into this further.")
+        print (f" {name} you scored {total_score}. You have some minor symptoms that are indicative \n with ADHD we recommend you look into this further.")
     elif 7 <= total_score <= 12:
-        print (f" {name} you scored {total_score}. You have symptoms that are consistent \n with ADHD we recommend you look into this further.")
+        print (f" {name} you scored {total_score}. You have symptoms that are indicative \n with ADHD we recommend you look into this further.")
     elif 13 <= total_score <= 18:
-        print (f" {name} you scored {total_score}. Your symptoms are consistent with ADHD \n we highly recommend you look into this further.")
+        print (f" {name} you scored {total_score}. Your high score shows indicative symptoms consistent with ADHD in adults \n we highly recommend you look into this further.")
 
 print("---------------------------------------------------------------------")
 print("                  Welcome to the ADHD assessment tool              \n")
