@@ -16,6 +16,7 @@ def get_name():
     """
     Get users name 
     Validate that it is a string and not numbers or no value
+    :return: string representing users name
     """
     
     while True:
@@ -27,7 +28,8 @@ def get_name():
         else:
             print(f"Hello {name} welcome to the ADHD assessment")
             return name           
-    
+
+
 def run():
     """
     User must be over 17 and under 110 to do test 
@@ -43,7 +45,9 @@ def run():
             ask_questions(name)
             break
    
-
+"""
+Create a ask_questions function, using the name as a parameter so that we can use the users name value when we are calling the function later displaying their results
+"""
 def ask_questions(name):
     """
     Insert dictionary of assessment questions with options
@@ -68,9 +72,9 @@ def ask_questions(name):
     total_score = 0
    
     """
-    Iterate through the questions and display the rating the user choices.
-    Ask user for the input a, b, c, d, or e.  Apply .upper() to input encase user puts in a lowercase letter
-    Ensure user can only put in letters a - e Issue alert otherwise
+    Iterate through the questions and display the rating the user chooses.
+    Ask user for the input a, b, c, d, or e.  Apply .lower() to input encase user puts in a lowercase letter
+    Ensure user can only put in letters a - e Issue error handling otherwise
     """
 
     for question in questions:
@@ -88,7 +92,7 @@ def ask_questions(name):
                 print("Invalid response.  Please enter A, B, C, D or E")
     
     """
-    Display if user has symptoms that are consistent with ADHD
+    Display if user has symptoms that are consistent with ADHD depending on the score range
     """
     print(" ---------------------------------------------------------------------")
     print(" --------------------       RESULTS    -------------------------------")
