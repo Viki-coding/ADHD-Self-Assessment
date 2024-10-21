@@ -5,7 +5,7 @@ def get_age():
     Run a while loop to collect valid string of data from the user
     """
     while True:
-        age = input("Enter your age:  \n")
+        age = input("Enter your age and press return:  \n")
         try:
             age = int(age) 
             return age 
