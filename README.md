@@ -9,7 +9,7 @@ This program is an ADHD assessment tool for adults.
 
 
 > **What is ADHD:** [From ADHD Ireland] 
-ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives.</b>
+"ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives."</b>
 
 In Ireland today, a formal diagnosis is only done through an Educational Psychologist or Psychiatrist. The first step when someone is stuggling is to go to visit their GP.  GP's are not all fully up to speed on how difficult is can be to have ADHD and may not fully be aware of the correct questions to ask to be able to refer their patient to correct health professional. 
 
@@ -17,9 +17,22 @@ There is a misconception that many people who were lazy in school, acted up due 
 
 <h2>Description - Project Purpose - Content </h2>
 
-"Research suggests that the symptoms of ADHD can persist into adulthood, having a significant impact on the relationships, careers, and even the personal safety of patients who may suffer from it. Because this disorder is often misunderstood, many people who have it do not receive appropriate treatment and, as a result, may never reach their full potential. Part of the problem is that it can be difficult to diagnose, particularly in adults." ADD.org 
+The main problem many adults have is not being diagnosed.  Many adults who have ADHD have struggled for years not even knowing what ADHD is.  By equiping individuals and GPs with more information about ADHD and signs to look out for will allow them to get on the path for formal disagnosis and treatment, leading to improved outcomes. 
 
-The user is asked 6 questions with options.  These 5 options remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allowing ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The content reflects the 6 most indicative questions as referenced in XXXX and the responses clarifies the purpose It is not a formal diagnosis. 
+>  [From ADD.org ] "Research suggests that the symptoms of ADHD can persist into adulthood, having a significant impact on the relationships, careers, and even the personal safety of patients who may suffer from it. Because this disorder is often misunderstood, many people who have it do not receive appropriate treatment and, as a result, may never reach their full potential. Part of the problem is that it can be difficult to diagnose, particularly in adults." 
+
+
+Using this tool we want adults to gain easy access to a diagnosis individually or through their GP. Diagnosis is done through a series of questions. 
+
+The user is asked 6 questions with the following options:
+
+  - A. Never 
+  - B. Rarely
+  - C. Sometimes
+  - D. Often
+  - E. Very Often
+   
+     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allowing ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The content reflects the 6 most indicative questions as referenced in XXXX and the responses clarifies the purpose It is not a formal diagnosis. 
 
 The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
 
