@@ -4,9 +4,12 @@
 (https://adhd-assessment-a99f3a28cb71.herokuapp.com/)
 
 <h1> Introduction </h1>
+
 This program is an ADHD assessment tool for adults.  
 
-ADHD/ADD Attention Deficit (Hyper) Disorder is a neurodiverse challenge that affects many people.  Many adults don't even realise they have ADHD, many don't reach their full potential due to ADHD.  
+
+> **What is ADHD:** [From ADHD Ireland] 
+ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives.</b>
 
 In Ireland today, a formal diagnosis is only done through an Educational Psychologist or Psychiatrist. The first step when someone is stuggling is to go to visit their GP.  GP's are not all fully up to speed on how difficult is can be to have ADHD and may not fully be aware of the correct questions to ask to be able to refer their patient to correct health professional. 
 
@@ -250,6 +253,8 @@ We gained inspiration with the READ.me by watching the video 'Creating your READ
 [The content for the quiz is from the ADD.org the Attention Deficit Disorder association of America ](https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf)
 
 [This questionaire is used accross America and Canada and the World Health Organisation.] (https://add.org/adhd-questionnaire/)
+
+Definition of ADHD  [From ADHD Ireland] (https://adhdireland.ie/general-information/what-is-adhd/) for introduction text. 
 
 This program is not an accurage diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionaire which can tell the patient has sympthoms that are highly consistent with ADHD and require further investigation. In the full questionire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
 
