@@ -257,6 +257,8 @@ https://www.youtube.com/watch?v=tb6EYiHtcXU
 is alpha
 ![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
 
+Insights into how to use Flow Charts for displaying python process:
+(https://problemsolvingwithpython.com/09-Loops/09.04-Flowcharts-Describing-Loops/)
 
 <b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
 
