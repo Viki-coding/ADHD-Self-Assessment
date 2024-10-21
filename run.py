@@ -61,7 +61,7 @@ def ask_questions(name):
     """
     Apply an integer score against each possible user choice
     """
-    scoring = {"a": 0, "b":0, "c": 5, "d":10, "e":15}
+    scoring = {"a": 0, "b":0, "c": 1, "d":2, "e":3}
     """
     Initialise the total score
     """
@@ -94,13 +94,13 @@ def ask_questions(name):
     print(" --------------------       RESULTS    -------------------------------")
     print(" ---------------------------------------------------------------------\n")
 
-    if 0 <= total_score <= 10:
+    if 0 <= total_score <= 3:
         print (f" {name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
-    elif 11 <= total_score <= 15:
+    elif 4 <= total_score <= 9:
         print (f" {name} you scored {total_score}. You have some minor symptoms that are consistent \n with ADHD we recommend you look into this further.")
-    elif 16 <= total_score <= 45:
+    elif 10 <= total_score <= 15:
         print (f" {name} you scored {total_score}. You have symptoms that are consistent \n with ADHD we recommend you look into this further.")
-    elif 46 <= total_score <= 90:
+    elif 15 <= total_score <= 18:
         print (f" {name} you scored {total_score}. Your symptoms are consistent with ADHD \n we highly recommend you look into this further.")
 
 print("---------------------------------------------------------------------")

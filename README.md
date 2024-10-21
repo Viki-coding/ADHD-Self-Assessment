@@ -61,8 +61,9 @@ Using a colour contrast checked we checked which font colours stood out best aga
 
 <h2>Typography</h2>
 
-<h2>Wireframes</h2>
 <h2>Flow Chart</h2>
+
+
 
 <h3>FEATURES</h3>
 	(example: nav bars, footer, contact forms, social media icons. )
