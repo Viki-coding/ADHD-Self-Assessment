@@ -24,6 +24,7 @@ The main problem many adults have is not being diagnosed.  Many adults who have 
 
 Using this tool we want adults to gain easy access to a diagnosis individually or through their GP. Diagnosis is done through a series of questions. 
 
+<b>Scoring</b>
 The user is asked 6 questions with the following options:
 
   - A. Never 
@@ -32,7 +33,28 @@ The user is asked 6 questions with the following options:
   - D. Often
   - E. Very Often
    
-     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allowing ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The content reflects the 6 most indicative questions as referenced in XXXX and the responses clarifies the purpose It is not a formal diagnosis. 
+     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allow ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored, at the end of the questionaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The question content reflects the 6 most indicative questions as referenced in Attention Deficit Disorder Association of America assessment tool in conjuction with the World Health Organisation (referenced in credits below).
+     
+     Scoring system:
+
+     a = 0
+
+     b = 0
+
+     c = 1
+
+     d = 2
+
+     e = 3
+
+Scoring Range: 
+
+     - If a user scores between 0-3 they show no signs of ADHD
+     - If a user scores between 4-6 they show mild signs of ADHD
+     - If a user scores between 7-12 they show signs of ADHD
+     - If a user score between 13-18 they show very strong signs of ADHD
+    
+    IT IS NOT A FORMAL DIAGNOSIS. 
 
 The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
 
@@ -45,23 +67,23 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
 
 <h2>UX</h2>
 
-<h2>USER STORIES / GOALS </h2>
-As a [user], I want to [perform some task] so that I can [achieve some goal]
-As a GP user I want to log in easily and be able to see the questions I need to ask my patients.
-As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
-As a GP user I want to see the users score to give me an idea if they just have mild symptoms or more significant and recurring symptoms. 
-As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
+<h2>User Stories / Goals: </h2>
+
+ - As a GP user I want to log in easily and be able to see the questions I need to ask my patients.
+ - As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
+ -   As a GP user I want to see the users score to give me an idea if they just have mild symptoms or more significant and recurring symptoms. 
+ - As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
+ - As a user at home, I want to assess if I may have ADHD as I find it hard to contentrate and finish tasks and feel that if I know I may have it I can seek approatote healthcare advice. 
+ - As a parent at home, I think my teenage son may have ADHD, the waiting list for assessment is very long, I would like a quick and straight forward test to assess if he may have it before he sits his state exams so that we can help get access to the most appriatote treatment and services. 
 
 <h2>Design Choices</h2>
 
-● Design: Colorama, ASCII Art, Flowchart of Logic/Functions, User Feedback
+At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
-Colour Scheme
-Using a colour contrast checked we checked which font colours stood out best against our base colours.  All receiving good ratings. Graphic illustrated below:
+The use of lines in the program helps to distinguish the beginning of the programe, between the various quesions and also distinguished the results section at the end of the page. 
 
-<h2>Typography</h2>
 
-<h2>Flow Chart</h2>
+<h2>Flow Chart:</h2>
 
 
 
@@ -185,8 +207,8 @@ LINK [Link text](https://website-name.com)
 Heruko Deployment
 ● Deployment: Step by step process for deploying to Heroku, API setup (optional)
 
-Log on to Heruko
-https://dashboard.heroku.com/apps
+[Log on to Heruko]
+(https://dashboard.heroku.com/apps)
  
 Select “Create new app”
 Name the app something unique
@@ -227,33 +249,33 @@ CONTEXT
 <b>General good videos and links to teaching of JS:<b>
 
 
-https://www.youtube.com/watch?v=lVUOrPunRxQ
+(https://www.youtube.com/watch?v=lVUOrPunRxQ)
 Good to explain best practice using the main() function
 
 Inspiration of question format from
-https://www.youtube.com/watch?v=zehwgTB0vV8&t=311s
+(https://www.youtube.com/watch?v=zehwgTB0vV8&t=311s)
 Bro 
 ______________
 How to workout points from each answer – got some inspiration from approx. 17 mins on this youtube video:
 
-https://www.youtube.com/watch?v=yriw5Zh406s
+(https://www.youtube.com/watch?v=yriw5Zh406s)
 Quiz from bro code with def
 
-https://www.youtube.com/watch?v=ag8NtD1e0Kc
+(https://www.youtube.com/watch?v=ag8NtD1e0Kc)
 hand man with not alpha and 
 
-https://www.youtube.com/watch?v=LqXIJjcRmGI
+(https://www.youtube.com/watch?v=LqXIJjcRmGI)
 bro and credit card and replace a with 0
 
 CREATE A QUIZ IN PYTHON | learn to code in python for beginners (python tutorial for beginners)
 Maya Bello
-https://www.youtube.com/watch?v=swstbE2bH4k
+(https://www.youtube.com/watch?v=swstbE2bH4k)
 Inspiration of match case statements
 Learn Python MATCH-CASE STATEMENTS in 5 minutes! 
 BroCode
-https://www.youtube.com/watch?v=L7tT0NZF-Ag
+(https://www.youtube.com/watch?v=L7tT0NZF-Ag)
 
-https://www.youtube.com/watch?v=tb6EYiHtcXU
+(https://www.youtube.com/watch?v=tb6EYiHtcXU)
 is alpha
 ![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
 
