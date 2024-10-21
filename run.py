@@ -96,11 +96,11 @@ def ask_questions(name):
 
     if 0 <= total_score <= 3:
         print (f" {name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
-    elif 4 <= total_score <= 9:
+    elif 4 <= total_score <= 6:
         print (f" {name} you scored {total_score}. You have some minor symptoms that are consistent \n with ADHD we recommend you look into this further.")
-    elif 10 <= total_score <= 15:
+    elif 7 <= total_score <= 12:
         print (f" {name} you scored {total_score}. You have symptoms that are consistent \n with ADHD we recommend you look into this further.")
-    elif 15 <= total_score <= 18:
+    elif 13 <= total_score <= 18:
         print (f" {name} you scored {total_score}. Your symptoms are consistent with ADHD \n we highly recommend you look into this further.")
 
 print("---------------------------------------------------------------------")
