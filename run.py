@@ -22,7 +22,7 @@ def get_name():
         name = input("What is your name?  \n")
         if name == "":
             print("You did not enter your name!")
-        elif not name.isalpha() and not name.upper():
+        elif not name.isalpha(): 
             print("Name should only contain letters")
         else:
             print(f"Hello {name} welcome to the ADHD assessment")
