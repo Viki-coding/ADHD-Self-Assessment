@@ -57,7 +57,7 @@ def ask_questions(name):
     """
     Insert dictionary of assessment questions with options
     """
-questions = [
+    questions = [
         " QUESTION 1: \n \n How often do you have trouble
         wrapping up the final details of a project,
         \n once the challenging parts have been done?\n",
@@ -116,28 +116,55 @@ questions = [
             else:
                 print("Invalid response.  Please enter A, B, C, D or E")
     """
-    Display if user has symptoms that are consistent with ADHD depending on the score range
+    Display if user has symptoms that are consistent
+    with ADHD depending on the score range
     """
-    print(" ---------------------------------------------------------------------")
-    print(" --------------------       RESULTS    -------------------------------")
-    print(" ---------------------------------------------------------------------\n")
+    print(" -----------------------------------------
+            ----------------------------")
+    print(" --------------------RESULTS---
+            ----------------------------")
+    print(" -----------------------------------------
+            ----------------------------\n")
 
     if 0 <= total_score <= 3:
-        print(f" {name} you scored {total_score}. You do NOT have any symptoms that are consistent with ADHD")
+        print(
+            f" {name} you scored {total_score}.
+            You do NOT have any symptoms that are consistent with ADHD"
+            )
     elif 4 <= total_score <= 6:
-        print(f" {name} you scored {total_score}. You have some minor symptoms that are indicative \n with ADHD we recommend you look into this further.")
+        print(
+            f" {name} you scored {total_score}. You have
+            some minor symptoms that are indicative \n with ADHD we
+            recommend you look into this further."
+            )
     elif 7 <= total_score <= 12:
-        print(f" {name} you scored {total_score}. You have symptoms that are indicative \n with ADHD we recommend you look into this further.")
+        print(
+            f" {name} you scored {total_score}. You have
+            symptoms that are indicative \n with ADHD we
+            recommend you look into this further."
+            )
     elif 13 <= total_score <= 18:
-        print(f" {name} you scored {total_score}. Your high score shows indicative symptoms consistent with ADHD in adults \n we highly recommend you look into this further.")
+        print(
+            f" {name} you scored {total_score}. Your high
+            score shows indicative symptoms consistent with ADHD in
+            adults \n we highly recommend you look into this further."
+              )
 
 
-print("---------------------------------------------------------------------")
-print("                  Welcome to the ADHD assessment tool              \n")
-print("---------------------------------------------------------------------")
-print("----------------------     IMPORTANT    -----------------------------\n")
-print(" This program was developed as a coding educational challenge \n and is NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are concerned about ADHD")
-print("---------------------------------------------------------------------\n")
+print("-----------------------------------------------------
+                                            ----------------")
+print("                  Welcome to the ADHD assessment tool\n")
+print("------------------------------------------------------
+        ---------------")
+print("----------------------IMPORTANT--------------
+        ---------------\n")
+print(
+            "This program was developed as a coding educational
+            challenge \n and is NOT an  accurate ADHD diagnostic tool.
+            \n Contact your GP if you are concerned about ADHD"
+     )
+print("---------------------------------------------------------
+        ------------\n")
 
 if __name__ == '__main__':
     run()
