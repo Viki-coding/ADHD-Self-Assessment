@@ -68,7 +68,7 @@ def ask_questions(name):
     """
     Apply an integer score against each possible user choice
     """
-    scoring = {"a": 0, "b" : 0, "c" : 1, "d" : 2, "e" : 3}
+    scoring = {"a": 0, "b": 0, "c": 1, "d": 2, "e": 3}
     """
     Initialise the total score
     """

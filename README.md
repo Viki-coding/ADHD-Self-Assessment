@@ -286,6 +286,7 @@ Insights into how to use Flow Charts for displaying python process:
 
 We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A, Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
 
+[Line breaks in python] (https://www.pythonmorsels.com/breaking-long-lines-code-python/)
 
 <h2>CONTENT</h2>
 [The content for the quiz is from the ADD.org the Attention Deficit Disorder association of America ](https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf)
