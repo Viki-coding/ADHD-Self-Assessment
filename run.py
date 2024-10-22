@@ -62,7 +62,7 @@ def ask_questions(name):
         " QUESTION 4: \n \n When you have a task that requires a lot of thought, \n how often do you avoid or delay getting started?\n",
         " QUESTION 5: \n \n How often do you fidget or squirm with your hands or feet \n when you have to sit down for a long time?\n",
         " QUESTION 6: \n \n How often do you feel overly active and compelled to do things,\n like you were driven by a motor?\n"
-    ]
+                ]
 
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often", "E. Very Often \n"]
     """
@@ -74,8 +74,7 @@ def ask_questions(name):
     """
     total_score = 0
     """
-    Iterate through the questions and display the rating the user chooses.
-    Ask user for the input a, b, c, d, or e.  Apply .lower() to input encase user puts in a lowercase letter
+    Iterate through the questions and display the rating the user chooses. Ask user for the input a, b, c, d, or e.  Apply .lower() to input encase user puts in a lowercase letter
     Ensure user can only put in letters a - e Issue error handling otherwise
     """
 
