@@ -47,7 +47,9 @@ def run():
 
 
 """
-Create a ask_questions function, using the name as a parameter so that we can use the users name value when we are calling the function later displaying their results
+Create a ask_questions function, using the name as a
+parameter so that we can use the users name value when we are
+calling the function later displaying their results
 """
 
 
@@ -55,7 +57,7 @@ def ask_questions(name):
     """
     Insert dictionary of assessment questions with options
     """
-   questions = [
+questions = [
         " QUESTION 1: \n \n How often do you have trouble
         wrapping up the final details of a project,
         \n once the challenging parts have been done?\n",
@@ -91,14 +93,19 @@ def ask_questions(name):
     """
     total_score = 0
     """
-    Iterate through the questions and display the rating the user chooses. Ask user for the input a, b, c, d, or e.  Apply .lower() to input encase user puts in a lowercase letter
-    Ensure user can only put in letters a - e Issue error handling otherwise
+   Iterate through the questions and display the rating the user
+    chooses. Ask user for the input a, b, c, d, or e.  Apply
+    .lower() to input encase user puts in a lowercase letter
+    Ensure user can only put in letters a - e Issue error
+    handling otherwise
     """
 
     for question in questions:
-        print("------------------------------------------------------------------------")
+        print("------------------------------------------
+                ------------------------------")
         print(question)
-        print("------------------------------------------------------------------------")
+        print("------------------------------------------
+                ------------------------------")
         for option in options:
             print(option)
         while True:
