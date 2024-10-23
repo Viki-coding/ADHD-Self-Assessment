@@ -85,6 +85,7 @@ The use of lines in the program helps to distinguish the beginning of the progra
 
 <h2>Flow Chart:</h2>
 
+![ADHD Flowchart](https://github.com/user-attachments/assets/a0e2245f-2678-49af-aa5b-cb7e60473288)
 
 
 
@@ -126,6 +127,9 @@ Python
 FEATURES TESING
 LIGHTHOUSE PERFORMANCE
 VALIDATOR TESTING
+![CI Python linter](https://github.com/user-attachments/assets/6078a8da-baf4-45ba-bac6-670982a5a547)
+
+
 BROWSER COMPATIBILITY
 SCREEN SIZE RESPONSIVENESS
 SMURF
