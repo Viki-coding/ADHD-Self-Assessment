@@ -20,7 +20,7 @@ def get_name():
     :return: string representing users name
     """
     while True:
-        name = input("What is your name?  \n")
+        name = input("What is your first name?  \n")
         if name == "":
             print("You did not enter your name!")
         elif not name.isalpha():
@@ -118,19 +118,19 @@ def ask_questions(name):
     print(" ---------------------------------------------------------------\n")
     
     if 0 <= total_score <= 3:
-        print(f"{name} you scored {total_score}. \n You do NOT have any "
+        print(f"{name} you scored {total_score}. \nYou do NOT have any "
               "symptoms that are consistent with ADHD")
     elif 4 <= total_score <= 6:
-        print(f"{name} you scored {total_score}. \n You have some minor "
+        print(f"{name} you scored {total_score}. \nYou have some mild "
               "symptoms that are indicative with \nADHD we recommend "
               "you look into this further.")
     elif 7 <= total_score <= 12:
-        print(f"{name} you scored {total_score}. \n You have symptoms "
+        print(f"{name} you scored {total_score}. \nYou have symptoms "
               "that are indicative \nwith ADHD we recommend you look "
               "into this further.")
     elif 13 <= total_score <= 18:
-        print(f"{name} you scored {total_score}. \n Your high score shows "
-              "indicative symptoms \nconsistent with ADHD in adults we "
+        print(f"{name} you scored {total_score}. \nYour high score shows "
+              "indicative symptoms \nconsistent with ADHD in adults. We "
               "highly \nrecommend you look into this further.")
 
 
