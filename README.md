@@ -24,7 +24,11 @@ The main problem many adults have is not being diagnosed.  Many adults who have 
 
 Using this tool we want adults to gain easy access to a diagnosis individually or through their GP. Diagnosis is done through a series of questions. 
 
-<b>Scoring</b>
+<b>Questions:</b>
+The question content reflects the 6 most indicative questions as referenced in Attention Deficit Disorder Association of America assessment tool in conjuction with the World Health Organisation (referenced in credits below).
+
+<b>Response Options:</b>
+
 The user is asked 6 questions with the following options:
 
   - A. Never 
@@ -33,8 +37,12 @@ The user is asked 6 questions with the following options:
   - D. Often
   - E. Very Often
    
-     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  The questions and content are laid out logically and clearly allow ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. Each response is scored, at the end of the questionaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. The question content reflects the 6 most indicative questions as referenced in Attention Deficit Disorder Association of America assessment tool in conjuction with the World Health Organisation (referenced in credits below).
+     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response which createes a familiar user interactive experince to elicit a postive user experience.  
      
+     Each response is scored, at the end of the questionaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. 
+     
+<b>Scoring:</b>
+
      Scoring system:
 
      a = 0
@@ -47,7 +55,7 @@ The user is asked 6 questions with the following options:
 
      e = 3
 
-Scoring Range: 
+<b>Scoring Range: </b>
 
      - If a user scores between 0-3 they show no signs of ADHD
      - If a user scores between 4-6 they show mild signs of ADHD
@@ -75,8 +83,12 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
  - As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
  - As a user at home, I want to assess if I may have ADHD as I find it hard to contentrate and finish tasks and feel that if I know I may have it I can seek approatote healthcare advice. 
  - As a parent at home, I think my teenage son may have ADHD, the waiting list for assessment is very long, I would like a quick and straight forward test to assess if he may have it before he sits his state exams so that we can help get access to the most appriatote treatment and services. 
+- As a user at home, my son/daughter has just been diagnosed with ADHD, I think I may also suffer and would like to check before seeking more formal diagnosis. 
 
 <h2>Design Choices</h2>
+
+<b>Layout:</b>
+The questions and content are laid out logically and clearly to allow ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. 
 
 At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
@@ -108,21 +120,22 @@ Feature Title / Screenshot / Value to the User
  - Sexually Transmitted Disease checker - different sympthoms pertain to different STD's, ofthen embarrising - allow users to assess what they may have while educating them about STDs and informing them of the next steps they need to take.
  - 
 <h2>Accessibility</h2>
+This program score 95 on the Lighthouse testing perfomance. 
 
-<h2>Technologies Used</h2>
-Python
-● Application Features: Python Logic, Data/APIs used (optional)
+<h2>Technologies, Frameworks, Libraries and Programs Used:</h2>
 
-<h2>Frameworks, Libraries and Programs Used: </h2>
-
-
+* Python
+* Heruko 
 * Git - version control
 * Git Pod
-* Git Hub - To save and store the files for the website
+* Git Hub 
 * Spell Check
+* CI Python Linter to check for white space and character length.
+* Online IDE checker  - for checking pieces of code worked. (https://www.online-ide.com/online_python_syntax_checker)
 
   
 <h2>Manual Testing</h2>
+The program works as intended and was well testing using the following methods. 
 (Does the site work as intended?)
 FEATURES TESING
 LIGHTHOUSE PERFORMANCE
@@ -296,12 +309,20 @@ Understanding how to use .isalpha() method:
 [Sting methods in Python are easy - Bro Code]
 (https://www.youtube.com/watch?v=tb6EYiHtcXU)
 
+Understanding string methods:
+[W3 Schools String Methods]
+(https://www.w3schools.com/python/python_ref_string.asp)
+
 Understanding how to format python code and linebreaks:
 [Breaking up long lines of code in Python] 
 (https://www.pythonmorsels.com/breaking-long-lines-code-python/)
 
 README inspiration: 
 We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A.
+
+Useful to tips to improve look of Readme:
+[Hacks - Workarounds for things not offically supported by Markdown]
+(https://www.markdownguide.org/hacks/#:~:text=Basically%2C%20every%20in%20your,sentence%20of%20my%20indented%20paragraph.)
 
 General good practise and advice on Project 3: 
 Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. 

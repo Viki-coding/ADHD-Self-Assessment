@@ -141,7 +141,7 @@ print("----------------------     IMPORTANT    ---------------------------\n")
 print(
     " This program was developed as a coding educational challenge \n and is "
     "NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are "
-    "concerned about ADHD"
+    "concerned about ADHD. \n* TO RESTART PROGRAM - PRESS RUN PROGRAM *"
 )
 print("-------------------------------------------------------------------\n")
 
