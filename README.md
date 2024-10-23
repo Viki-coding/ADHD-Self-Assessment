@@ -161,6 +161,7 @@ We took a systematic and structural approach to manually test each page to ensur
 As shown in the evaluation sheet below we navigated around our site and tested all available features to ensure they were working as intended.
 
 <h2>Lighthouse Testing</h2>
+
 <h2>BUGS</h2>
 <u>Solved Bugs</u>
 I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to higlight these.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
@@ -183,11 +184,12 @@ I did not iterate through my questions and options correctly and just got dumped
 LINK [Link text](https://website-name.com)
 
 <h2>User Experience Assurance</h2>
+
 <h2>Deployment Steps</h2>
 
 * The site is Deployed using GitHub Pages
 * Login to GitHub
-* Go to the projects repository (https://viki-coding.github.io/Guess-the-Flag-Quiz/)
+* Go to the projects repository (https://github.com/Viki-coding/ADHD-Self-Assessment)
 * Click on Settings
 * Select pages in the left navigation bar
 * From SOURCE dropdown select Deploy from a Branch
@@ -210,8 +212,6 @@ LINK [Link text](https://website-name.com)
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
 
 Heruko Deployment
-● Deployment: Step by step process for deploying to Heroku, API setup (optional)
-
 [Log on to Heruko]
 (https://dashboard.heroku.com/apps)
  
@@ -247,63 +247,83 @@ Wait until the message ‘App was successfully deployed’ is displayed, click o
 
 
 <h2>Acknowledging Contributions & Credits</h2>
-TITLE OR DESCRIPTION
-SOURCE OF LINK
-CONTEXT
 
-<b>General good videos and links to teaching of JS:<b>
+I revisited the CI Love Sandwiches project as I found it useful in setting up python workspace and heruko. Helped with good practise of using doc strings and the stucture of functions. 
 
-
-(https://www.youtube.com/watch?v=lVUOrPunRxQ)
-Good to explain best practice using the main() function
-
-Inspiration of question format from
+Inspired with how to structure questions was based on youtube video:
+[Create a QUIZ GAME with Python - BroCode]
 (https://www.youtube.com/watch?v=zehwgTB0vV8&t=311s)
-Bro 
+
+Understanding while loops. 
+[While loops in Python are ease - Brocode]
+(https://www.youtube.com/watch?v=rRTjPnVooxE)
 ______________
-How to workout points from each answer – got some inspiration from approx. 17 mins on this youtube video:
 
+Understanding parameter values:
+(https://www.w3schools.com/python/ref_func_range.asp)
+
+Understanding questions V answers, some inspriration gained from:
+[Python quiz game - Bro Code]
 (https://www.youtube.com/watch?v=yriw5Zh406s)
-Quiz from bro code with def
 
+Understanding the not.alpha concept from this hangman video:
+[Let's code a HANGMAN GAME in Python - Bro Code]
 (https://www.youtube.com/watch?v=ag8NtD1e0Kc)
-hand man with not alpha and 
 
+Understanding changing a string to an integer to work out scoring: 
+[Credit card validator in Python - Bro Code]
 (https://www.youtube.com/watch?v=LqXIJjcRmGI)
-bro and credit card and replace a with 0
 
-CREATE A QUIZ IN PYTHON | learn to code in python for beginners (python tutorial for beginners)
-Maya Bello
+Understanding scoring from differenet responses inspired from: 
+[CREATE A QUIZ IN PYTHON | learn to code in python for beginners (python tutorial for beginners)
+Maya Bello]
 (https://www.youtube.com/watch?v=swstbE2bH4k)
-Inspiration of match case statements
-Learn Python MATCH-CASE STATEMENTS in 5 minutes! 
-BroCode
-(https://www.youtube.com/watch?v=L7tT0NZF-Ag)
 
-(https://www.youtube.com/watch?v=tb6EYiHtcXU)
-is alpha
-![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
-
+<b>GENERAL EDUCATIONAL VIDEOS ON PYTHON THAT WERE USEFUL::<b>
 Insights into how to use Flow Charts for displaying python process:
+[Problem Solving with Python]
 (https://problemsolvingwithpython.com/09-Loops/09.04-Flowcharts-Describing-Loops/)
 
-<b>Videos & Websites that we gained visual clues of how to create the Quiz:</b>
+How to use pythons main() function correctly and why:
+[What is Python's Main Function Useful For?]
+(https://www.youtube.com/watch?v=lVUOrPunRxQ)
 
-We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A, Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues.
+Inspiration of match case statements:
+[Learn Python MATCH-CASE STATEMENTS in 5 minutes! - BroCode]
+(https://www.youtube.com/watch?v=L7tT0NZF-Ag)
 
-[Line breaks in python] (https://www.pythonmorsels.com/breaking-long-lines-code-python/)
+Understanding how to use .isalpha() method:
+[Sting methods in Python are easy - Bro Code]
+(https://www.youtube.com/watch?v=tb6EYiHtcXU)
+
+Understanding how to format python code and linebreaks:
+[Breaking up long lines of code in Python] 
+(https://www.pythonmorsels.com/breaking-long-lines-code-python/)
+
+README inspiration: 
+We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A.
+
+General good practise and advice on Project 3: 
+Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. 
+
+![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
+
+
+Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. 
+
+
 
 <h2>CONTENT</h2>
-[The content for the quiz is from the ADD.org the Attention Deficit Disorder association of America ](https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf)
+The content for the quiz is from the [ADD.org] the Attention Deficit Disorder association of America [Link] (https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf)
 
-[This questionaire is used accross America and Canada and the World Health Organisation.] (https://add.org/adhd-questionnaire/)
+This questionaire is used accross America and Canada and the World Health Organisation. [Link] (https://add.org/adhd-questionnaire/)
 
 Definition of ADHD  [From ADHD Ireland] (https://adhdireland.ie/general-information/what-is-adhd/) for introduction text. 
 
 This program is not an accurage diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionaire which can tell the patient has sympthoms that are highly consistent with ADHD and require further investigation. In the full questionire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
 
 <h2>Legal & Ethical Compliance</h2>
-This project is for educational purposes only.
+This project is for educational coding purposes only. It is not a formal diagnositic tool for ADHD. This information also displayed on welcome screen when project first lauches. 
 
 
 
