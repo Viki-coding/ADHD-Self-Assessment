@@ -327,9 +327,6 @@ Useful to tips to improve look of Readme:
 General good practise and advice on Project 3: 
 Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. 
 
-![image](https://github.com/user-attachments/assets/51d70b81-ee30-427c-9d3b-fb49aff107d2)
-
-
 Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. 
 
 
