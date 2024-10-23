@@ -47,43 +47,36 @@ def run():
 
 
 """
-Create a ask_questions function, using the name as a
-parameter so that we can use the users name value when we are
-calling the function later displaying their results
+Create a ask_questions function, using the name as a parameter
+so that we can use the users name value when we are calling the
+function later displaying their results
 """
 
 
 def ask_questions(name):
     """
-    Insert dictionary of assessment questions with options
+    Insert dictionary of assessment questions
     """
     questions = [
-        " QUESTION 1: \n \n How often do you have trouble
-        wrapping up the final details of a project,
-        \n once the challenging parts have been done?\n",
-        " QUESTION 2: \n \n How often do you have difficulty
-        getting things in order \n when you have to do a task
-        that requires organization?\n",
-        " QUESTION 3: \n \n How often do you have problems
-        remembering appointments or obligations?\n",
-        " QUESTION 4: \n \n When you have a task that requires
-        a lot of thought, \n how often do you avoid or
-        delay getting started?\n",
-        " QUESTION 5: \n \n How often do you fidget or squirm
-        with your hands or feet \n when you have to sit
-        down for a long time?\n",
-        " QUESTION 6: \n \n How often do you feel overly
-        active and compelled to do things, \n like you were
-        driven by a motor?\n"
-                ]
+        "QUESTION 1: How often do you have trouble wrapping up the "
+        "final details of a project, once the challenging parts "
+        "have been done?\n",
+        "QUESTION 2: How often do you have difficulty getting things "
+        "in order when you have to do a task that requires "
+        "organization?\n",
+        "QUESTION 3: How often do you have problems remembering "
+        "appointments or obligations?\n",
+        "QUESTION 4: When you have a task that requires a lot of "
+        "thought, how often do you avoid or delay getting started?\n",
+        "QUESTION 5: How often do you fidget or squirm with your "
+        "hands or feet when you have to sit down for a long time?\n",
+        "QUESTION 6: How often do you feel overly active and compelled "
+        "to do things, like you were driven by a motor?\n",
+    ]
 
-    options = [
-            "A. Never",
-            "B. Rarely",
-            "C. Sometimes",
-            "D. Often",
-            "E. Very Often \n"
-              ]
+    options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often",
+               "E. Very Often\n"]
+
     """
     Apply an integer score against each possible user choice
     """
@@ -93,19 +86,20 @@ def ask_questions(name):
     """
     total_score = 0
     """
-   Iterate through the questions and display the rating the user
-    chooses. Ask user for the input a, b, c, d, or e.  Apply
-    .lower() to input encase user puts in a lowercase letter
-    Ensure user can only put in letters a - e Issue error
-    handling otherwise
+    Iterate through the questions and display the rating the user chooses.
+    Ask user for the input a, b, c, d, or e.  Apply .lower() to input
+    encase user puts in a lowercase letter
+    Ensure user can only put in letters a - e Issue error handling otherwise
     """
 
     for question in questions:
-        print("------------------------------------------
-                ------------------------------")
+        print(
+            "-----------------------------------------------------------------"
+        )
         print(question)
-        print("------------------------------------------
-                ------------------------------")
+        print(
+            "-----------------------------------------------------------------"
+        )
         for option in options:
             print(option)
         while True:
@@ -116,55 +110,41 @@ def ask_questions(name):
             else:
                 print("Invalid response.  Please enter A, B, C, D or E")
     """
-    Display if user has symptoms that are consistent
-    with ADHD depending on the score range
+    Display if user has symptoms that are consistent with ADHD depending on
+    the score range
     """
-    print(" -----------------------------------------
-            ----------------------------")
-    print(" --------------------RESULTS---
-            ----------------------------")
-    print(" -----------------------------------------
-            ----------------------------\n")
-
+    print(" -----------------------------------------------------------------")
+    print(" --------------------       RESULTS    ---------------------------")
+    print(" ---------------------------------------------------------------\n")
+    """
     if 0 <= total_score <= 3:
-        print(
-            f" {name} you scored {total_score}.
-            You do NOT have any symptoms that are consistent with ADHD"
-            )
+        print(f"{name} you scored {total_score}. You do NOT have any "
+              "symptoms that are consistent with ADHD")
     elif 4 <= total_score <= 6:
-        print(
-            f" {name} you scored {total_score}. You have
-            some minor symptoms that are indicative \n with ADHD we
-            recommend you look into this further."
-            )
+        print(f"{name} you scored {total_score}. You have some minor "
+              "symptoms that are indicative with ADHD we recommend "
+              "you look into this further.")
     elif 7 <= total_score <= 12:
-        print(
-            f" {name} you scored {total_score}. You have
-            symptoms that are indicative \n with ADHD we
-            recommend you look into this further."
-            )
+        print(f"{name} you scored {total_score}. You have symptoms "
+              "that are indicative with ADHD we recommend you look "
+              "into this further.")
     elif 13 <= total_score <= 18:
-        print(
-            f" {name} you scored {total_score}. Your high
-            score shows indicative symptoms consistent with ADHD in
-            adults \n we highly recommend you look into this further."
-              )
+        print(f"{name} you scored {total_score}. Your high score shows "
+              "indicative symptoms consistent with ADHD in adults we "
+              "highly recommend you look into this further.")
+    """
 
 
-print("-----------------------------------------------------
-                                            ----------------")
-print("                  Welcome to the ADHD assessment tool\n")
-print("------------------------------------------------------
-        ---------------")
-print("----------------------IMPORTANT--------------
-        ---------------\n")
+print("---------------------------------------------------------------------")
+print("                  Welcome to the ADHD assessment tool              \n")
+print("---------------------------------------------------------------------")
+print("----------------------     IMPORTANT    ---------------------------\n")
 print(
-            "This program was developed as a coding educational
-            challenge \n and is NOT an  accurate ADHD diagnostic tool.
-            \n Contact your GP if you are concerned about ADHD"
-     )
-print("---------------------------------------------------------
-        ------------\n")
+    " This program was developed as a coding educational challenge \n and is "
+    "NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are "
+    "concerned about ADHD"
+)
+print("-------------------------------------------------------------------\n")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
