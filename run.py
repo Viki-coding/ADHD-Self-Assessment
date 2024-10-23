@@ -115,18 +115,18 @@ def ask_questions(name):
     """
     print(" -----------------------------------------------------------------")
     print(" --------------------       RESULTS    ---------------------------")
-    print(" ---------------------------------------------------------------\n")
+    print(" -----------------------------------------------------------------\n")
     
     if 0 <= total_score <= 3:
         print(f"{name} you scored {total_score}. \nYou do NOT have any "
               "symptoms that are consistent with ADHD")
     elif 4 <= total_score <= 6:
         print(f"{name} you scored {total_score}. \nYou have some mild "
-              "symptoms that are indicative with \nADHD we recommend "
+              "symptoms that are indicative with \nADHD. We recommend "
               "you look into this further.")
     elif 7 <= total_score <= 12:
         print(f"{name} you scored {total_score}. \nYou have symptoms "
-              "that are indicative \nwith ADHD we recommend you look "
+              "that are indicative \nwith ADHD. We recommend you look "
               "into this further.")
     elif 13 <= total_score <= 18:
         print(f"{name} you scored {total_score}. \nYour high score shows "
@@ -146,7 +146,7 @@ print(
 )
 print("-------------------------------------------------------------------\n")
 
-print("----------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM *-----------\n")
+print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON*---------\n")
 print("-------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
