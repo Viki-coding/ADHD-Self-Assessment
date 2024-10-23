@@ -11,20 +11,19 @@ This program is an ADHD assessment tool for adults.
 > **What is ADHD:** [From ADHD Ireland] 
 "ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives."</b>
 
-In Ireland today, a formal diagnosis is only done through an Educational Psychologist or Psychiatrist. The first step when someone is stuggling is to go to visit their GP.  GP's are not all fully up to speed on how difficult is can be to have ADHD and may not fully be aware of the correct questions to ask to be able to refer their patient to correct health professional. 
+In Ireland today, a formal diagnosis is ONLY performed with an Educational Psychologist or Psychiatrist. The first step when someone is stuggling would be to visit their GP.  Not all GP's are fully up to speed on how difficult it is to have ADHD and may not be fully aware of the correct questions to ask to make a premilinary diagnosis prior to refering their patient to the correct health professional. 
 
-There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was becuase they were bold but data shows that many have ADHD and if diagnosed correctly with and correct mangement can lead very full and productive lives.  People with ADHD have 'super-powers' that lead them to be able to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
+There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was becuase they were bold but data shows that many have ADHD and if diagnosed early with and correct mangement can lead very full and productive lives.  People with ADHD have 'super-powers' that lead them to be able to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
 
 <h2>Description - Project Purpose - Content </h2>
 
-The main problem many adults have is not being diagnosed.  Many adults who have ADHD have struggled for years not even knowing what ADHD is.  By equiping individuals and GPs with more information about ADHD and signs to look out for will allow them to get on the path for formal disagnosis and treatment, leading to improved outcomes. 
+The main problem many adults have is not being diagnosed.  Many adults who have ADHD have struggled for years not even knowing what ADHD is.  By equiping individuals and GPs with more information about ADHD using this assessment tool will allow them to get on the path for formal disagnosis and treatment, leading to improved outcomes. 
 
 >  [From ADD.org ] "Research suggests that the symptoms of ADHD can persist into adulthood, having a significant impact on the relationships, careers, and even the personal safety of patients who may suffer from it. Because this disorder is often misunderstood, many people who have it do not receive appropriate treatment and, as a result, may never reach their full potential. Part of the problem is that it can be difficult to diagnose, particularly in adults." 
 
+Using this tool we want adults to gain easy access to a diagnosis or it can be performed through their GP. Diagnosis is done through a series of questions. 
 
-Using this tool we want adults to gain easy access to a diagnosis individually or through their GP. Diagnosis is done through a series of questions. 
-
-<b>Questions:</b>
+**Questions & Responses:**
 The question content reflects the 6 most indicative questions as referenced in Attention Deficit Disorder Association of America assessment tool in conjuction with the World Health Organisation (referenced in credits below).
 
 <b>Response Options:</b>
@@ -66,7 +65,7 @@ The user is asked 6 questions with the following options:
 
 The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
 
-ADHD is heriditary.  A diagnois can help families discover issues they many have been experiencing to be able to gain the correct support and help.  
+ADHD is heriditary.  A diagnois can help families discover issues they many have been experiencing leading to the correct supports and help.  
 
 <h2>User Demographics - Target audience</h2>
 The target auidence for this tool is people over 17 years of age.  GP's can use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to peoples lives.  
@@ -87,12 +86,12 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
 
 <h2>Design Choices</h2>
 
-<b>Layout:</b>
+**Layout:**
 The questions and content are laid out logically and clearly to allow ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. 
 
 At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
-The use of lines in the program helps to distinguish the beginning of the programe, between the various quesions and also distinguished the results section at the end of the page. 
+The use of lines in the program helps to distinguish the beginning of the program, between the various quesions and also distinguished the results section at the end of the page. 
 
 
 <h2>Flow Chart:</h2>
@@ -102,18 +101,30 @@ The use of lines in the program helps to distinguish the beginning of the progra
 
 
 <h3>FEATURES</h3>
-This program offers the user clear and informative instructions to begin the program. 
 
-	(example: nav bars, footer, contact forms, social media icons. )
-	Functional Overview 
--	Core functionalities
--	Elements of the project
--	Sets expectations
-Navigation and Interaction Points 
--	Offers preview of key elements which are crucial for user interaction.
-Assessor wants to see:
-Feature Title / Screenshot / Value to the User
-<h2>Interaction Points</h2>
+**Welcome & Instructions**
+This program offers the user clear and informative instructions to begin the program, the age you should be and how to restart the program is required.  A warning that this is not a formal diagnosis is also mentioned here. 
+
+**Age Validation**
+The program beins with asking the user to enter their age and press return.  The user must be over 17 years old to use this program.  If a user puts in an age <17 or older than >110 a print message is displayed to the user that you must be at least 17 to do this assessment.  If they are older than 110 we tell them they are too old to worry about ADHD. The program then returns the question asking how old they are, if no input is made the program indicates that they must input a value.  Once the user has entered a valid input the program proceeds to the next step - Name input. 
+
+**Name Validation**
+The user is then asked their first name. This {name} value will be utilised when we give the user their results to make it a more personal experience.  
+
+If a user puts in numbers then an error message is printed that the input must be valid letters only.  If the user does not enter any value an error message is printed that they must enter their name before moving onto the first question. 
+
+**Questions**
+There are 6 questions.  The reponses are always the same making a good repetative feedback response for the user to use. The user inserts the letter that they feel most reflects their response to each question.  The user can see which letter they have entered and then press return to enter their score and proceed to the next question. 
+
+After question 6 the responses are calculated and a diagnosis is delivered.
+
+**RESULTS**
+The results is based on the responses the user has made as shown above in the scoring description. This will be valuable to the user to inform them of their score and diagnois so that they can proceed or not with seeking a healthcare professional for a formal diagnosis. 
+
+A print comment is displayed using the users first name and their total score indicating wheather they do not have ADHD, have mild sympthoms of ADHD, have sympthom of ADHD or have shown a high scoring incating they have ADHD.
+
+If they have sympthoms they are advised to look into it further. 
+
 
 <h2>Future Implementation Section</h2>
 
@@ -217,25 +228,75 @@ BUGS RESOLVED AND NOTE SOLUTIONS AND UNRESOLVED
 <h2>Lighthouse Testing</h2>
 
 <h2>BUGS</h2>
-<u>Solved Bugs</u>
-I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to higlight these.  It was also helpful breaking down the problem and  thinking logically - what’s working, what’s not to be able to focus in on the issue. 
 
+<h4>Solved Bugs</h4>
+I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to higlight these.  It was also helpful breaking down the problem and thinking logically - what’s working, what’s not to be able to focus on the issue. It also helped to make my commit messages better as I at the beginning I was testing all my functions out in gitpod, commiting, changing them, commiting it again so when I started creating the function in the test area first it allowed me the confidence that I knew that function worked. 
+
+<h4>BUG 1 - Uppercase throwing error:</h4>
 While doing some testing I had been quickly entering name or letters without using an uppercase for the first name, so during a systematic check when I did capitalise my first name the following error was displayed.  On looking at my code I discovered I used .upper() method rather than .lower() Once amended it worked. 
+
 <img width="475" alt="Capital V not being accepted" src="https://github.com/user-attachments/assets/507826cf-1200-4224-ae3f-4647ff561ae1">
 
 
 <img width="576" alt="incorrect  upper for response" src="https://github.com/user-attachments/assets/3ae5859f-9d31-4e50-9e00-b7bcf0226610">
 
-<img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
-Unlike other quizes where there are a few options to choose from I just wanted to display the same survey/questionaire responses. I amended the correct iteration variable and it now works well. 
+<h4>BUG 2 - Response Options repeating </h4>
+Unlike other quizes where there are a few response options to choose from I just wanted to display the same survey/questionaire responses. I corrected iteration variable and it now works well. 
 
-<img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
+<img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
+
+
+<h4> BUG 3 - Scoring Range Incorrect and showing incorrect results</h4>
 On testing I entered 'e' on all my responses which should of displayed the print message that I had a high likelhood of having ADHD when in fact it displayed to me that I had 'mild' symtoms.  When looking at my code I had only used >= to scores rather than a range.  Once I fixed this it worked correctly.
 
-<img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
+<img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
+
+
+<h4>BUG 4 - Question dump - not iterating through the questions </h4>
 I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many a youtube video I finally figured it out and it worked correctly. 
 
+<img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
+
+<h4>BUG 5 - Numbers in name not showing error </h4>
+During the testing I inserted a mixture of numbers and letters with the name input field and it did not flag any errors. I amended this using isalpha() method correctly.
+
+
 <h2>Deployment Steps</h2>
+
+Heruko Deployment
+
+* The site is Deployed using Heruko Deployment
+* [Log on to Heruko] (https://dashboard.heroku.com/apps)
+* Click on the DEPLOY Tab
+* Choose the Githb deployment method
+* Confirm that you want to connect to GitHub, gitbub will request your password to connect. 
+* Click in repo name  and Search for your repository name and select connect. 
+* Select Enable Automatic Deploys 
+* Check Choose a branch to deploy is defaulted is MAIN
+* Click on Display Branch 
+* App will build
+* Wait until the message ‘App was successfully deployed’ is displayed, click on the view button
+
+
+ASK DICK IF THE ABOVE IT ENOUGH******
+Select “Create new app”
+Name the app something unique
+Choose Europe from the dropdown
+Click ‘Create App’
+Go to the SETTINGS  tab first
+In the ‘Config Vars’ section aka environment variables 
+In the KEY section type in PORT and the value section type in 8000 – add
+
+IF you build a landmark project that doesn’t use a cred.json file you don’t need to set up config vars otherwise: 
+In the KEY section type CREDS (all capital letters) – 
+Go to workspace and copy the entire creds.json file and paste it into the value field and add.
+
+ To add other dependencies:
+ADD BUILDPACK
+Select Python – choose add
+Select Node.js – choose add 
+(Should be in this order, python first then node.js)
+ 
 
 * The site is Deployed using GitHub Pages
 * Login to GitHub
@@ -261,39 +322,6 @@ I did not iterate through my questions and options correctly and just got dumped
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
 
-Heruko Deployment
-[Log on to Heruko]
-(https://dashboard.heroku.com/apps)
- 
-Select “Create new app”
-Name the app something unique
-Choose Europe from the dropdown
-Click ‘Create App’
-Go to the SETTINGS  tab first
-In the ‘Config Vars’ section aka environment variables 
-In the KEY section type in PORT and the value section type in 8000 – add
-
-IF you build a landmark project that doesn’t use a cred.json file you don’t need to set up config vars otherwise: 
-In the KEY section type CREDS (all capital letters) – 
-Go to workspace and copy the entire creds.json file and paste it into the value field and add.
-
- To add other dependencies:
-ADD BUILDPACK
-Select Python – choose add
-Select Node.js – choose add 
-(Should be in this order, python first then node.js)
- 
-DEPLOY SECTION
-Click on the DEPLOY Tab
-Choose the Githb deployment method
-Confirm that you want to connect to GitHub, gitbub will request your password to connect. 
-Click in repo name  and Search for your repository name and select connect. 
-Select Enable Automatic Deploys 
-Check Choose a branch to deploy is defaulted is MAIN
-Click on Display Branch 
- 
-App will build
-Wait until the message ‘App was successfully deployed’ is displayed, click on the view button
 
 
 <h2>Acknowledging Contributions & Credits</h2>
@@ -329,7 +357,8 @@ Understanding scoring from differenet responses inspired from:
 Maya Bello]
 (https://www.youtube.com/watch?v=swstbE2bH4k)
 
-<b>GENERAL EDUCATIONAL VIDEOS ON PYTHON THAT WERE USEFUL::<b>
+**GENERAL EDUCATIONAL VIDEOS / LINKS ON PYTHON THAT WERE USEFUL:**
+
 Insights into how to use Flow Charts for displaying python process:
 [Problem Solving with Python]
 (https://problemsolvingwithpython.com/09-Loops/09.04-Flowcharts-Describing-Loops/)
@@ -354,16 +383,17 @@ Understanding how to format python code and linebreaks:
 [Breaking up long lines of code in Python] 
 (https://www.pythonmorsels.com/breaking-long-lines-code-python/)
 
-README inspiration: 
+**README inspiration:**
 We gained inspiration with the READ.me by watching the video 'Creating your README with Kasia Boguckae' on slack and Community Q&A.
 
 Useful to tips to improve look of Readme:
 [Hacks - Workarounds for things not offically supported by Markdown]
 (https://www.markdownguide.org/hacks/#:~:text=Basically%2C%20every%20in%20your,sentence%20of%20my%20indented%20paragraph.)
 
-General good practise and advice on Project 3: 
+**General good practise and advice on Project 3:** 
 Lucy Rush the Assessments Lead chats to our own Lane-Sawyer Thompson to answers some frequently asked questions surrounding Portfolio Project 3. 
 
+**THANKS**
 Thanks to the on-line tutors for their expertise and ability to explain some challenges I encountered. Thanks to our very supportive and positive facilitator Kay and my Kiwi mentor Dick Vlaanderen. 
 
 
