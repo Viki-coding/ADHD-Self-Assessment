@@ -122,16 +122,16 @@ def ask_questions(name):
               "symptoms that are consistent with ADHD")
     elif 4 <= total_score <= 6:
         print(f"{name} you scored {total_score}. \n You have some minor "
-              "symptoms that are indicative with ADHD we recommend "
+              "symptoms that are indicative with \nADHD we recommend "
               "you look into this further.")
     elif 7 <= total_score <= 12:
         print(f"{name} you scored {total_score}. \n You have symptoms "
-              "that are indicative with ADHD we recommend you look "
+              "that are indicative \nwith ADHD we recommend you look "
               "into this further.")
     elif 13 <= total_score <= 18:
         print(f"{name} you scored {total_score}. \n Your high score shows "
-              "indicative symptoms consistent with ADHD in adults we "
-              "highly recommend you look into this further.")
+              "indicative symptoms \nconsistent with ADHD in adults we "
+              "highly \nrecommend you look into this further.")
 
 
 print("---------------------------------------------------------------------")
