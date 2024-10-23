@@ -59,19 +59,19 @@ def ask_questions(name):
     """
     questions = [
         "QUESTION 1: How often do you have trouble wrapping up the "
-        "final details of a project, once the challenging parts "
+        "final details of a \n project, once the challenging parts "
         "have been done?\n",
         "QUESTION 2: How often do you have difficulty getting things "
-        "in order when you have to do a task that requires "
+        "in order when you \n have to do a task that requires "
         "organization?\n",
         "QUESTION 3: How often do you have problems remembering "
-        "appointments or obligations?\n",
+        "appointments \n or obligations?\n",
         "QUESTION 4: When you have a task that requires a lot of "
-        "thought, how often do you avoid or delay getting started?\n",
+        "thought, how often\n do you avoid or delay getting started?\n",
         "QUESTION 5: How often do you fidget or squirm with your "
-        "hands or feet when you have to sit down for a long time?\n",
+        "hands or \nfeet when you have to sit down for a long time?\n",
         "QUESTION 6: How often do you feel overly active and compelled "
-        "to do things, like you were driven by a motor?\n",
+        "to \n do things, like you were driven by a motor?\n",
     ]
 
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often",
@@ -116,7 +116,7 @@ def ask_questions(name):
     print(" -----------------------------------------------------------------")
     print(" --------------------       RESULTS    ---------------------------")
     print(" ---------------------------------------------------------------\n")
-    """
+    
     if 0 <= total_score <= 3:
         print(f"{name} you scored {total_score}. You do NOT have any "
               "symptoms that are consistent with ADHD")
@@ -132,7 +132,6 @@ def ask_questions(name):
         print(f"{name} you scored {total_score}. Your high score shows "
               "indicative symptoms consistent with ADHD in adults we "
               "highly recommend you look into this further.")
-    """
 
 
 print("---------------------------------------------------------------------")
