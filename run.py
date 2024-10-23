@@ -136,7 +136,7 @@ def ask_questions(name):
 
 print("---------------------------------------------------------------------")
 print("               Welcome to the ADHD Assessment Tool                 \n")
-print("                   For people over 17 years only                   \n")
+print("                   For people 17 years & over.                     \n")
 print("---------------------------------------------------------------------")
 print("----------------------     IMPORTANT    ---------------------------\n")
 print(
@@ -147,6 +147,7 @@ print(
 print("-------------------------------------------------------------------\n")
 
 print("----------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM *-----------\n")
+print("-------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
     run()

@@ -135,7 +135,7 @@ This program score 95 on the Lighthouse testing perfomance.
 * CI Python Linter to check for white space and character length.
 * Online IDE checker  - for checking pieces of code worked. [IDE Checker] (https://www.online-ide.com/online_python_syntax_checker)
 
- <h2>Quality Assurance</h2>
+ <h2>Quality Assurance & User Experience Assurance</h2>
 
 We took a systematic and structural approach to manually test each feature to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all aspects of the quiz were working correctly as specified with expected and actual outcomes using a methodical approach. We did final testing on the deployed site to ensure our users have a smooth experience by addressing potential issues. 
 
@@ -234,10 +234,6 @@ On testing I entered 'e' on all my responses which should of displayed the print
 
 <img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
 I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many a youtube video I finally figured it out and it worked correctly. 
-
-LINK [Link text](https://website-name.com)
-
-<h2>User Experience Assurance</h2>
 
 <h2>Deployment Steps</h2>
 
