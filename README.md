@@ -96,7 +96,10 @@ The use of lines in the program helps to distinguish the beginning of the progra
 
 <h2>Flow Chart:</h2>
 
-![ADHD Flowchart](https://github.com/user-attachments/assets/a0e2245f-2678-49af-aa5b-cb7e60473288)
+
+![Flowchart (2)](https://github.com/user-attachments/assets/0c2d7529-138c-4453-99d6-55eaf9b66f09)
+
+
 
 
 
