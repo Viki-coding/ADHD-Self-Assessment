@@ -272,7 +272,23 @@ During the testing I inserted a mixture of numbers and letters with the name inp
 
 <h2>Deployment Steps</h2>
 
-Heruko Deployment
+
+**Heruko - Creating a new app**
+
+* [Log on to Heruko] (https://dashboard.heroku.com/apps)
+* Select “Create new app”
+* Name the app something unique
+* Choose Europe from the dropdown
+* Click ‘Create App’
+* Go to the SETTINGS  tab first
+* In the ‘Config Vars’ section aka environment variables 
+* In the KEY section type in PORT and the value section type in 8000 – add
+* IF you build a landmark project that doesn’t use a cred.json file you don’t need to set up config vars otherwise: 
+* In the KEY section type CREDS (all capital letters) – 
+* Go to workspace and copy the entire creds.json file and paste it into the value field and add.
+
+
+**Heruko Deployment**
 
 * The site is Deployed using Heruko Deployment
 * [Log on to Heruko] (https://dashboard.heroku.com/apps)
@@ -286,51 +302,25 @@ Heruko Deployment
 * App will build
 * Wait until the message ‘App was successfully deployed’ is displayed, click on the view button
 
-
-
-Select “Create new app”
-Name the app something unique
-Choose Europe from the dropdown
-Click ‘Create App’
-Go to the SETTINGS  tab first
-In the ‘Config Vars’ section aka environment variables 
-In the KEY section type in PORT and the value section type in 8000 – add
-
-IF you build a landmark project that doesn’t use a cred.json file you don’t need to set up config vars otherwise: 
-In the KEY section type CREDS (all capital letters) – 
-Go to workspace and copy the entire creds.json file and paste it into the value field and add.
-
- To add other dependencies:
-ADD BUILDPACK
-Select Python – choose add
-Select Node.js – choose add 
-(Should be in this order, python first then node.js)
- 
-
-* The site is Deployed using GitHub Pages
-* Login to GitHub
-* Go to the projects repository (https://github.com/Viki-coding/ADHD-Self-Assessment)
-* Click on Settings
-* Select pages in the left navigation bar
-* From SOURCE dropdown select Deploy from a Branch
-* Under BRANCH from dropdown select Main Branch and SAVE
-* The site is now deployed but may take a few minutes to go live.
-* Return to CODE tab of Github repo and wait a few minutes for build to finish, refresh page. This will show on GitHub-pages to see active deployments.
+**To add other dependencies:**
+* ADD BUILDPACK
+* Select Python – choose add
+* Select Node.js – choose add 
+* (Should be in this order, python first then node.js)
 
 <h2>How to Fork</h2>
 
 * Login to Github
-* Go to Project repository
+* Go to Project repository (https://github.com/Viki-coding/ADHD-Self-Assessment)
 * Click the FORK button top right corner
 
 <h2>How to Clone</h2>
 
 * Log into Github
-* Go to project repository
+* Go to project repository (https://github.com/Viki-coding/ADHD-Self-Assessment)
 * Click on the code button, select what want to clone HTTPS, SSH or GitHub CLI and copy the link.
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 * Copy 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
-
 
 
 <h2>Acknowledging Contributions & Credits</h2>
@@ -365,6 +355,10 @@ Understanding scoring from differenet responses inspired from:
 [CREATE A QUIZ IN PYTHON | learn to code in python for beginners (python tutorial for beginners)
 Maya Bello]
 (https://www.youtube.com/watch?v=swstbE2bH4k)
+
+Understanding python function arguments
+[W3 Schools] (https://www.w3schools.com/python/gloss_python_function_arguments.asp)
+
 
 **GENERAL EDUCATIONAL VIDEOS / LINKS ON PYTHON THAT WERE USEFUL:**
 
