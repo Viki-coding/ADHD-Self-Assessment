@@ -11,20 +11,20 @@ This program is an ADHD assessment tool for adults.
 > **What is ADHD:** [From ADHD Ireland] 
 "ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives."</b>
 
-In Ireland today, a formal diagnosis is ONLY performed with an Educational Psychologist or Psychiatrist. The first step when someone is stuggling would be to visit their GP.  Not all GP's are fully up to speed on how difficult it is to have ADHD and may not be fully aware of the correct questions to ask to make a premilinary diagnosis prior to refering their patient to the correct health professional. 
+In Ireland today, a formal diagnosis is ONLY performed with an Educational Psychologist or Psychiatrist. The first step when someone is stuggling would be to visit their GP.  Not all GP's are fully up to speed on how difficult it is to have ADHD and may not be fully aware of the correct questions to ask to make a premilinary diagnosis prior to referring their patient to the correct health professional. 
 
-There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was becuase they were bold but data shows that many have ADHD and if diagnosed early with the correct mangement can lead very full and productive lives.  People with ADHD have 'super-powers' ability to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
+There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was because they were bold but data shows that many have ADHD and if diagnosed early with the correct management can lead very full and productive lives.  People with ADHD have 'super-powers' ability to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
 
 <h2>Description - Project Purpose - Content </h2>
 
-The main problem many adults have is not being diagnosed AND difficulty to gain access to an already overburdoned healthcare system.  Many adults who have ADHD have struggled for years not even knowing what ADHD is.  By equiping individuals and GPs with more information about ADHD, using this assessment tool, will allow them to get on the path for a formal disagnosis and treatment, leading to improved outcomes. 
+The main problem many adults have is not being diagnosed AND difficulty to gain access to an already overburdoned healthcare system.  Many adults who have ADHD have struggled for years not even knowing what ADHD is.  By equipping individuals and GPs with more information about ADHD, using this assessment tool, will allow them to get on the path for a formal diagnosis and treatment, leading to improved outcomes. 
 
 >  [From ADD.org ] "Research suggests that the symptoms of ADHD can persist into adulthood, having a significant impact on the relationships, careers, and even the personal safety of patients who may suffer from it. Because this disorder is often misunderstood, many people who have it do not receive appropriate treatment and, as a result, may never reach their full potential. Part of the problem is that it can be difficult to diagnose, particularly in adults." 
 
 Using this tool we want adults to gain easy access to a diagnosis and GP's to have the tools to perform a premlinary screening through a series of questions. 
 
 **Questions & Responses:**
-The question content reflects the 6 most indicative questions/responses of sympthoms to ADHD according to the Attention Deficit Disorder Association of America in conjuction with the World Health Organisation (referenced in credits below).
+The question content reflects the 6 most indicative questions/responses of sympthoms to ADHD according to the Attention Deficit Disorder Association of America in conjunction with the World Health Organisation (referenced in credits below).
 
 <b>Response Options:</b>
 
@@ -38,7 +38,7 @@ The user is asked 6 questions with the following options:
    
      These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response, creating a familiar interactive understanding, eliciting a postive user experience.  
      
-     Each response is scored, at the end of the questionaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. 
+     Each response is scored, at the end of the questionnaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. 
      
 <b>Scoring:</b>
 
@@ -63,14 +63,14 @@ The user is asked 6 questions with the following options:
     
     IT IS NOT A FORMAL DIAGNOSIS. 
 
-The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide wheather they wish to look into having a formal diagnosis.  
+The program aims to allow people/GP's to check if they have some symptoms that may indicate they have ADHD, they can then decide whether they wish to look into having a formal diagnosis.  
 
-ADHD is heriditary.  A diagnois can help families discover issues they many have been experiencing leading to the correct supports and help.  
+ADHD is hereditary.  A diagnosis can help families discover issues they many have been experiencing leading to the correct supports and help.  
 
 <h2>User Demographics - Target audience</h2>
-The target auidence for this tool is people over 17 years of age.  GP's can use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to peoples lives.  
+The target audience for this tool is people over 17 years of age.  GP's can use this tool to assess if they feel their patient may have ADHD so they can refer them for a more comprehensive diagnosis. The benefit of this tool to be able to get more informed about this condiation and make positive changes to people's lives.  
 
-Unfortunetly in Ireland the waiting lists for educational pychologists and psychiarists is very long and can be very expensive. To be able to use an on-line tool to rule ADHD in OR out for a patient is hugely important and benefical to both the patient but also the over-burdoned healthcare system. 
+Unfortunatley in Ireland the waiting lists for educational psychologists and psychiatrists is very long and can be very expensive. To be able to use an on-line tool to rule ADHD in OR out for a patient is hugely important and beneficial to both the patient but also the over-burdened healthcare system. 
 
 <h2>UX</h2>
 
@@ -80,18 +80,18 @@ Unfortunetly in Ireland the waiting lists for educational pychologists and psych
  - As a GP user I need a relatively quick assessment tool to ascertain whether or not my patient may or may not have ADHD. 
  - As a GP user I want to see the patients score to give me an idea if they have mild symptoms or more significant symptoms. 
  - As a  GP user I want to be able to make informed decisions so I can help my patient be referred to the correct healthcare professional. 
- - As a user at home, I want to assess if I have ADHD, as I find it hard to contentrate and finish tasks, I want to be more informed so that I can seek appropriate healthcare advice. 
- - As a parent at home, I think my 17 year old son may have ADHD, the waiting list for assessment is very long, I would like a quick and straight forward test to assess if he may have it before he sits his state exams so that we can get access to the most appriatote treatment and services. 
+ - As a user at home, I want to assess if I have ADHD, as I find it hard to concentrate and finish tasks, I want to be more informed so that I can seek appropriate healthcare advice. 
+ - As a parent at home, I think my 17 year old son may have ADHD, the waiting list for assessment is very long, I would like a quick and straight forward test to assess if he may have it before he sits his state exams so that we can get access to the most appropriate treatment and services. 
 - As a user at home, my son/daughter has just been diagnosed with ADHD, I think I may also suffer and would like to check before seeking more formal diagnosis. 
 
 <h2>Design Choices</h2>
 
 **Layout:**
-The questions and content are laid out logically and clearly to allow ituitve interaction while giveing user feedback.  It is clear to see which question is being displayed and the users reponse is displayed under that question. 
+The questions and content are laid out logically and clearly to allow intuitive interaction while giving user feedback.  It is clear to see which question is being displayed and the users response is displayed under that question. 
 
 At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
-The use of lines in the program helps to distinguish the beginning of the program, between the various quesions and also distinguished the results section at the end of the page. 
+The use of lines in the program helps to distinguish the beginning of the program, between the various questions and also distinguished the results section at the end of the page. 
 
 
 <h2>Flow Chart:</h2>
@@ -120,7 +120,7 @@ If a user puts in numbers then an error message is printed that the input must b
 
 
 **Questions**
-There are 6 questions.  The reponses are always the same making a good repetative feedback response for the user to use. The user inserts the letter that they feel most reflects their response to each question.  The user can see which letter they have entered and then press return to enter their score and proceed to the next question. 
+There are 6 questions.  The responses are always the same making a good repetitive feedback response for the user to use. The user inserts the letter that they feel most reflects their response to each question.  The user can see which letter they have entered and then press return to enter their score and proceed to the next question. 
 
 After question 6 the responses are calculated and a diagnosis is delivered.
 
@@ -139,19 +139,19 @@ After question 6 the responses are calculated and a diagnosis is delivered.
 
 
 **RESULTS**
-The results are based on the responses the user has made as shown above in the scoring description. This will be valuable to the user to inform them of their score and diagnois so that they can proceed or not with seeking a healthcare professional for a formal diagnosis. 
+The results are based on the responses the user has made as shown above in the scoring description. This will be valuable to the user to inform them of their score and diagnosis so that they can proceed or not with seeking a healthcare professional for a formal diagnosis. 
 
-A print comment is displayed using the users first name and their total score indicating wheather they have ADHD, have mild sympthoms of ADHD, have sympthom of ADHD or have shown a high scoring indicating they have ADHD.
+A print comment is displayed using the users first name and their total score indicating whether they have ADHD, have mild symptoms of ADHD, have symptoms of ADHD or have shown a high scoring indicating they have ADHD.
 
-If they have sympthoms they are advised to look into it further. 
+If they have symptoms they are advised to look into it further. 
 
 ![RESULTS](https://github.com/user-attachments/assets/01fcc25c-8df1-422e-b7e6-dd6096490a2f)
 
 <h2>Future Implementation Section</h2>
 
- - Include the 12 extra questions that have been develped by th American ADHD Assocation and W.H.O. to develop the questionaire to be a more accurate assessment tool in a google sheet linking them to the program.
- - Develop other healthcare question checks such as Peri-menopause / menopause tools to allow women to assess their symptoms in the security of their own home, allowing them to be more informed to be able to make the next decision in their health managment.
- - Sexually Transmitted Disease checker - different sympthoms pertain to different STD's, ofthen embarrising - allow users to assess what they may have while educating them about STDs and informing them of the next steps they need to take and the consequces of not getting treatment.
+ - Include the 12 extra questions that have been develped by th American ADHD Assocation and W.H.O. to develop the questionnaire to be a more accurate assessment tool in a google sheet linking them to the program.
+ - Develop other healthcare question checks such as Peri-menopause / menopause tools to allow women to assess their symptoms in the security of their own home, allowing them to be more informed to be able to make the next decision in their health management.
+ - Sexually Transmitted Disease checker - different symptoms pertain to different STD's, often embarrassing - allow users to assess what they may have while educating them about STDs and informing them of the next steps they need to take and the consequces of not getting treatment.
  
 
 <h2>Technologies, Frameworks, Libraries and Programs Used:</h2>
@@ -173,7 +173,7 @@ We took a systematic and structural approach to manually test each feature to en
 
 As shown in the testing sheet below we navigated around our site and manually tested all available features and input fields to ensure they were working as intended. 
 
-We carried out various intentsive testing and entered various inputs to see if any errors occured. Many errors were fixed and works well without any bugs. 
+We carried out various intensive testing and entered various inputs to see if any errors occurred. Many errors were fixed and works well without any bugs. 
 
 
 FEATURES TESING:
@@ -239,7 +239,7 @@ BROWSER COMPATIBILITY
 <h2>BUGS</h2>
 
 <h4>Resolved Bugs</h4>
-I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to higlight these.  It was also helpful breaking down the problem and thinking logically - what’s working and what’s not to be able to focus on the issue. It also helped to make my commit messages better as I at the beginning I was testing all my functions out in gitpod, commiting, changing them, commiting it again so when I started creating the function in the test area first it allowed me the confidence that I knew that function worked. 
+I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to highlight these.  It was also helpful breaking down the problem and thinking logically - what’s working and what’s not to be able to focus on the issue. It also helped to make my commit messages better as I at the beginning I was testing all my functions out in gitpod, committing, changing them, committing it again so when I started creating the function in the test area first it allowed me the confidence that I knew that function worked. 
 
 <h4>BUG 1 - Uppercase throwing error:</h4>
 While doing some testing I had been quickly entering name or letters without using an uppercase for the first name, so during a systematic check when I did capitalise my first name the following error was displayed.  On looking at my code I discovered I used .upper() method rather than .lower() Once amended it worked. 
@@ -250,19 +250,19 @@ While doing some testing I had been quickly entering name or letters without usi
 <img width="576" alt="incorrect  upper for response" src="https://github.com/user-attachments/assets/3ae5859f-9d31-4e50-9e00-b7bcf0226610">
 
 <h4>BUG 2 - Response Options repeating </h4>
-Unlike other quizes where there are a few response options to choose from I just wanted to display the same survey/questionaire responses. I corrected iteration variable and it now works well. 
+Unlike other quizzes where there are a few response options to choose from I just wanted to display the same survey/questionnaire responses. I corrected iteration variable and it now works well. 
 
 <img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
 
 
 <h4> BUG 3 - Scoring Range Incorrect and showing incorrect results</h4>
-On testing I entered 'e' on all my responses which should of displayed the print message that I had a high likelhood of having ADHD when in fact it displayed to me that I had 'mild' symtoms.  When looking at my code I had only used >= to scores rather than a range.  Once I fixed this it worked correctly.
+On testing I entered 'e' on all my responses which should of displayed the print message that I had a high likelihood of having ADHD when in fact it displayed to me that I had 'mild' symptoms.  When looking at my code I had only used >= to scores rather than a range.  Once I fixed this it worked correctly.
 
 <img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
 
 
 <h4>BUG 4 - Question dump - not iterating through the questions </h4>
-I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many youtube videos I finally figured it out and it worked correctly. 
+I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many YouTube videos I finally figured it out and it worked correctly. 
 
 <img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
 
@@ -277,8 +277,8 @@ Heruko Deployment
 * The site is Deployed using Heruko Deployment
 * [Log on to Heruko] (https://dashboard.heroku.com/apps)
 * Click on the DEPLOY Tab
-* Choose the Githb deployment method
-* Confirm that you want to connect to GitHub, gitbub will request your password to connect. 
+* Choose the GitHub deployment method
+* Confirm that you want to connect to GitHub, GitHub will request your password to connect. 
 * Click in repo name  and Search for your repository name and select connect. 
 * Select Enable Automatic Deploys 
 * Check Choose a branch to deploy is defaulted is MAIN
@@ -335,9 +335,9 @@ Select Node.js – choose add
 
 <h2>Acknowledging Contributions & Credits</h2>
 
-I revisited the CI Love Sandwiches project as I found it useful in setting up python workspace and heruko. Helped with good practise of using doc strings and the stucture of functions. 
+I revisited the CI Love Sandwiches project as I found it useful in setting up python workspace and heruko. Helped with good practise of using doc strings and the structure of functions. 
 
-Inspired with how to structure questions was based on youtube video:
+Inspired with how to structure questions was based on YouTube video:
 [Create a QUIZ GAME with Python - BroCode]
 (https://www.youtube.com/watch?v=zehwgTB0vV8&t=311s)
 
@@ -409,14 +409,14 @@ Thanks to the on-line tutors for their expertise and ability to explain some cha
 <h2>CONTENT</h2>
 The content for the quiz is from the [ADD.org] the Attention Deficit Disorder association of America [Link] (https://add.org/wp-content/uploads/2015/03/adhd-questionnaire-ASRS111.pdf) and myself as my eldest son has ADHD so I unserstand the journey that people have to go through.
 
-This questionaire is used accross America and Canada and the World Health Organisation. [Link] (https://add.org/adhd-questionnaire/)
+This questionnaire is used across America and Canada and the World Health Organisation. [Link] (https://add.org/adhd-questionnaire/)
 
 Definition of ADHD  [From ADHD Ireland] (https://adhdireland.ie/general-information/what-is-adhd/) for introduction text. 
 
-This program is not an accurage diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionaire which can tell the patient has sympthoms that are highly consistent with ADHD and require further investigation. In the full questionire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
+This program is not an accurate diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionnaire which can tell the patient has symptoms that are highly consistent with ADHD and require further investigation. In the full questionnaire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
 
 <h2>Legal & Ethical Compliance</h2>
-This project is for educational coding purposes only. It is not a formal diagnositic tool for ADHD. This information also displayed on welcome screen when project first lauches. 
+This project is for educational coding purposes only. It is not a formal diagnostic tool for ADHD. This information also displayed on welcome screen when project first launches. 
 
 
 
