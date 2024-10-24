@@ -11,7 +11,7 @@ This program is an ADHD assessment tool for adults.
 > **What is ADHD:** [From ADHD Ireland] 
 "ADHD – Attention Deficit Hyperactivity Disorder is a medical/neurobiological condition in which the brain’s neurotransmitter chemicals; noradrenalin and dopamine do not work properly. <b>It is a disorder that, without proper identification, treatment and management, can have serious and long-lasting consequences and/or complications for an individual.  </b> It is a genetic and long-term condition which affects learning and behaviour right through the school years and in many cases beyond into adulthood.  ADHD is a disorder that can co-exist to a greater or lesser degree, with any or other disorders such as dyslexia, autism, learning disorder, dyspraxia, conduct disorder, oppositional defiance disorder.  <b>It is important to note that ADHD is a very treatable condition. If diagnosed and properly treated, people with ADHD can reach their potential and lead happy and successful lives."</b>
 
-In Ireland today, a formal diagnosis is ONLY performed with an Educational Psychologist or Psychiatrist. The first step when someone is stuggling would be to visit their GP.  Not all GP's are fully up to speed on how difficult it is to have ADHD and may not be fully aware of the correct questions to ask to make a premilinary diagnosis prior to referring their patient to the correct health professional. 
+In Ireland today, a formal diagnosis is ONLY performed with an Educational Psychologist or Psychiatrist. The first step when someone is struggling would be to visit their GP.  Not all GP's are fully up to speed on how difficult it is to have ADHD and may not be fully aware of the correct questions to ask to make a preliminary diagnosis prior to referring their patient to the correct health professional. 
 
 There is a misconception that many people who were lazy in school, acted up due to boredom, lacked concentration was because they were bold but data shows that many have ADHD and if diagnosed early with the correct management can lead very full and productive lives.  People with ADHD have 'super-powers' ability to hyper-focus on very complex issues, many are highly intelligent but may not have gotten good grades on subjects that bored them but excelled in subjects that did. 
 
@@ -176,7 +176,9 @@ As shown in the testing sheet below we navigated around our site and manually te
 We carried out various intensive testing and entered various inputs to see if any errors occurred. Many errors were fixed and works well without any bugs. 
 
 
-FEATURES TESING:
+**FEATURES TESTING**
+
+
 
 |                                                                                                  |                                                              | Feature                                                                              | Test Performed                                                                                       | Expected Outcome                                                                                                                                                               | Pass / Fail |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
@@ -228,46 +230,88 @@ FEATURES TESING:
 |                                                                                                  | 39                                                           | READ.me                                                                              | Text checked for spelling  and proof read                                                            | No incorrect spellings or grammer                                                                                                                                              | TRUE        |
 |                                                                                                  | 40                                                           | Assessment Testing sheet                                                             | Text checked for spelling  and proof read                                                            | No incorrect spellings or grammer                                                                                                                                              | TRUE        |
 
-VALIDATOR TESTING
+
+**VALIDATOR TESTING**
+
 We performed manual testing on the deployed site and also ran our python code through the CI python linter validator which showed no error messages. 
 
 
 ![CI Python linter](https://github.com/user-attachments/assets/482107a4-e712-46bc-9d07-875d74ba6bcf)
 
-BROWSER COMPATIBILITY
+**BROWSER COMPATIBILITY**
+
+<img width="470" alt="Browers compatibility ADHD P3" src="https://github.com/user-attachments/assets/fb8b209d-efb6-4535-8026-4f778712407f">
+
 
 <h2>BUGS</h2>
 
 <h4>Resolved Bugs</h4>
+
+
 I came across many bugs while testing the quiz, from missing semi-colons to indenting incorrectly.  Using the python code checker while writing the code helped to highlight these.  It was also helpful breaking down the problem and thinking logically - what’s working and what’s not to be able to focus on the issue. It also helped to make my commit messages better as I at the beginning I was testing all my functions out in gitpod, committing, changing them, committing it again so when I started creating the function in the test area first it allowed me the confidence that I knew that function worked. 
 
 <h4>BUG 1 - Uppercase throwing error:</h4>
+
+
 While doing some testing I had been quickly entering name or letters without using an uppercase for the first name, so during a systematic check when I did capitalise my first name the following error was displayed.  On looking at my code I discovered I used .upper() method rather than .lower() Once amended it worked. 
 
+
 <img width="475" alt="Capital V not being accepted" src="https://github.com/user-attachments/assets/507826cf-1200-4224-ae3f-4647ff561ae1">
+
+&nbsp;
+&nbsp;
 
 
 <img width="576" alt="incorrect  upper for response" src="https://github.com/user-attachments/assets/3ae5859f-9d31-4e50-9e00-b7bcf0226610">
 
+&nbsp;
+&nbsp;
+
+
 <h4>BUG 2 - Response Options repeating </h4>
+
 Unlike other quizzes where there are a few response options to choose from I just wanted to display the same survey/questionnaire responses. I corrected iteration variable and it now works well. 
+
+&nbsp;
+&nbsp;
 
 <img width="528" alt="Repeating response bug" src="https://github.com/user-attachments/assets/c9498de7-f850-4c61-a444-e2689d3441e0">
 
+&nbsp;
 
 <h4> BUG 3 - Scoring Range Incorrect and showing incorrect results</h4>
 On testing I entered 'e' on all my responses which should of displayed the print message that I had a high likelihood of having ADHD when in fact it displayed to me that I had 'mild' symptoms.  When looking at my code I had only used >= to scores rather than a range.  Once I fixed this it worked correctly.
 
+&nbsp;
+&nbsp;
+
 <img width="545" alt="Results showing incorrect score due to wrong to from scores" src="https://github.com/user-attachments/assets/ba33d17c-2a87-4a99-b1ff-a8a3f31bbcd8">
 
+&nbsp;
+&nbsp;
 
 <h4>BUG 4 - Question dump - not iterating through the questions </h4>
 I did not iterate through my questions and options correctly and just got dumped all the questions at once.  After watching many YouTube videos I finally figured it out and it worked correctly. 
 
+&nbsp;
+&nbsp;
 <img width="1034" alt="all questions and answers displayed" src="https://github.com/user-attachments/assets/913b3d1c-fec2-4d0c-824f-14ce5144a907">
 
+&nbsp;
+&nbsp;
+
 <h4>BUG 5 - Numbers in name not showing error </h4>
+
 During the testing I inserted a mixture of numbers and letters with the name input field and it did not flag any errors. I amended this using isalpha() method correctly.
+
+&nbsp;
+
+![Name accepting numbers](https://github.com/user-attachments/assets/c443d174-bf4d-49f4-a3c9-bad8461e4156)
+
+&nbsp;
+
+
+
 
 
 <h2>Deployment Steps</h2>
