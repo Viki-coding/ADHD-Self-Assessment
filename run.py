@@ -140,13 +140,13 @@ print("                   For people 17 years & over.                     \n")
 print("---------------------------------------------------------------------")
 print("----------------------     IMPORTANT    ---------------------------\n")
 print(
-    " This program was developed as a coding educational challenge \n and is "
-    "NOT an  accurate ADHD diagnostic tool. \n Contact your GP if you are "
+    " This program was developed as a coding educational challenge \nand is "
+    "NOT an accurate ADHD diagnostic tool. \nContact your GP if you are "
     "concerned about ADHD. \n"
 )
 print("-------------------------------------------------------------------\n")
 
-print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON*---------\n")
+print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON *---------\n")
 print("-------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
