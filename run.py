@@ -1,6 +1,6 @@
 import colorama
-from colorama import init, Fore, Back, Style
-
+from colorama import Fore, Style
+colorama.init(autoreset=True)
 
 def get_age():
     """
