@@ -1,3 +1,7 @@
+import colorama
+
+colorama.init()
+
 def get_age():
     """
     Get age from user
@@ -10,7 +14,7 @@ def get_age():
             age = int(age)
             return age
         except ValueError:
-            print("INVALID! Please enter a valid age")
+            print(colorama.Fore.RED + "INVALID! Please enter a valid age")
 
 
 def get_name():
@@ -22,9 +26,9 @@ def get_name():
     while True:
         name = input("What is your first name?  \n")
         if name == "":
-            print("You did not enter your name!")
+            print(colorama.Fore.RED + "You did not enter your name!")
         elif not name.isalpha():
-            print("Name should only contain letters")
+            print(colorama.Fore.RED + "Name should only contain letters")
         else:
             print(f"Hello {name} welcome to the ADHD assessment")
             return name
@@ -37,9 +41,9 @@ def run():
     while True:
         age = get_age()
         if age < 17:
-            print("Sorry you must be 17 to do this test! \n")
+            print(colorama.Fore.RED + "Sorry you must be 17 to do this test! \n")
         elif age > 110:
-            print("You're too old to worry about ADHD! \n")
+            print(colorama.Fore.BLUE + "You're too old to worry about ADHD! \n")
         else:
             name = get_name()
             ask_questions(name)
@@ -108,7 +112,7 @@ def ask_questions(name):
                 total_score += scoring[response]
                 break
             else:
-                print("Invalid response.  Please enter A, B, C, D or E")
+                print(colorama.Fore.RED + "Invalid response.  Please enter A, B, C, D or E")
     """
     Display if user has symptoms that are consistent with ADHD depending on
     the score range
