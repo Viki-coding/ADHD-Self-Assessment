@@ -37,6 +37,9 @@ def get_name():
 def run():
     """
     User must be over 17 and under 110 to do test
+    Check users age before proceeding to first question
+    Validate that it is an integer >17 and <110 
+    :return: string indicating error if <17 or >110
     """
     while True:
         age = get_age()
@@ -50,16 +53,11 @@ def run():
             break
 
 
-"""
-Create a ask_questions function, using the name as a parameter
-so that we can use the users name value when we are calling the
-function later displaying their results
-"""
-
-
 def ask_questions(name):
     """
-    Insert dictionary of assessment questions
+    Display a list of questions using the same response options
+    :param name: use the name as a parameter
+    :return: name and score within results 
     """
     questions = [
         "QUESTION 1: How often do you have trouble wrapping up the "
@@ -81,20 +79,20 @@ def ask_questions(name):
     options = ["A. Never", "B. Rarely", "C. Sometimes", "D. Often",
                "E. Very Often\n"]
 
-    """
-    Apply an integer score against each possible user choice
-    """
+    
+    #Apply an integer score against each possible user choice
+    
     scoring = {"a": 0, "b": 0, "c": 1, "d": 2, "e": 3}
-    """
-    Initialise the total score
-    """
+   
+    #Initialise the total score
+   
     total_score = 0
-    """
-    Iterate through the questions and display the rating the user chooses.
-    Ask user for the input a, b, c, d, or e.  Apply .lower() to input
-    encase user puts in a lowercase letter
-    Ensure user can only put in letters a - e Issue error handling otherwise
-    """
+   
+    #Iterate through the questions and display the rating the user chooses.
+    #Ask user for the input a, b, c, d, or e.  Apply .lower() to input
+    #encase user puts in a lowercase letter
+    #Ensure user can only put in letters a - e Issue error handling otherwise
+    
 
     for question in questions:
         print(
@@ -113,10 +111,10 @@ def ask_questions(name):
                 break
             else:
                 print(Fore.RED + "Invalid response.  Please enter A, B, C, D or E")
-    """
-    Display if user has symptoms that are consistent with ADHD depending on
-    the score range
-    """
+    
+    #Display if user has symptoms that are consistent with ADHD depending on
+    #the score range
+    
     print(" -----------------------------------------------------------------")
     print(" --------------------       RESULTS    ---------------------------")
     print(" -----------------------------------------------------------------\n")
@@ -140,7 +138,7 @@ def ask_questions(name):
 
 print("---------------------------------------------------------------------")
 print("               Welcome to the ADHD Assessment Tool                 \n")
-print("                   For people 17 years & over.                     \n")
+print("                   For people 17 years & over                      \n")
 print("---------------------------------------------------------------------")
 print("----------------------     IMPORTANT    ---------------------------\n")
 print(
@@ -150,7 +148,7 @@ print(
 )
 print("-------------------------------------------------------------------\n")
 
-print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON *---------\n")
+print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON *--------\n")
 print("-------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
