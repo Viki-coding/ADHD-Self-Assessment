@@ -87,7 +87,7 @@ Unfortunatley in Ireland the waiting lists for educational psychologists and psy
 <h2>Design Choices</h2>
 
 **Layout:**
-The questions and content are laid out logically and clearly to allow intuitive interaction while giving user feedback.  It is clear to see which question is being displayed and the users response is displayed under that question. 
+The questions and content are laid out logically and clearly to allow intuitive interaction while giving user feedback.  It is clear to see which question is being displayed and the users response is displayed under that question. We used colorama to highlight error handling responses in the age and name input fields.
 
 At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
@@ -114,12 +114,17 @@ This program offers the user clear and informative instructions to begin the pro
 **Age Validation**
 The program begins with asking the user to enter their age and press return.  The user must be over 17 years old to use this program.  If a user puts in an age <17 or older than >110 a print message is displayed to the user that you must be at least 17 to do this assessment.  If they are older than 110 we tell them they are too old to worry about ADHD. The program then returns the question asking how old they are, if no input is made the program indicates that they must input a value.  Once the user has entered a valid input the program proceeds to the next step - Name input. 
 
+
+![Screenshot 2024-10-23 at 18 30 51](https://github.com/user-attachments/assets/7c34b156-7d61-459e-accf-3c48adf1d2c3)
+
+
 **Name Validation**
 The user is then asked their first name. This {name} value will be utilised when we give the user their results to make it a more personal experience.  
 
 If a user puts in numbers then an error message is printed that the input must be valid letters only.  If the user does not enter any value an error message is printed that they must enter their name before moving onto the first question. 
 
-![Screenshot 2024-10-23 at 18 30 51](https://github.com/user-attachments/assets/7c34b156-7d61-459e-accf-3c48adf1d2c3)
+
+![Error handling name and age](https://github.com/user-attachments/assets/4d0cac78-fd32-4d18-b48b-c16c678ae898)
 
 
 **Questions**
@@ -167,6 +172,7 @@ If they have symptoms they are advised to look into it further.
 * Spell Check
 * CI Python Linter to check for white space and character length.
 * Online IDE checker  - for checking pieces of code worked. [IDE Checker] (https://www.online-ide.com/online_python_syntax_checker)
+* Colorama 
 
  <h2>Quality Assurance & User Experience Assurance</h2>
 
@@ -385,6 +391,13 @@ ______________
 Understanding parameter values:
 (https://www.w3schools.com/python/ref_func_range.asp)
 
+Understanding using more than one parameter in if statememts:
+[Conditions: if, then, else] (https://www.snakify.org/en/lessons/if_then_else_conditions/)
+
+Understanding condiational statements: 
+[Real Python] (https://realpython.com/python-conditional-statements/)
+
+
 Understanding questions & answers, some inspriration gained from:
 [Python quiz game - Bro Code]
 (https://www.youtube.com/watch?v=yriw5Zh406s)
@@ -404,6 +417,11 @@ Maya Bello]
 
 Understanding python function arguments
 [W3 Schools] (https://www.w3schools.com/python/gloss_python_function_arguments.asp)
+
+
+Understanding python doc strings and single line comments
+[Simplilearn: What is a Multiline Comment in Python?]
+(https://www.simplilearn.com/tutorials/python-tutorial/what-is-a-multiline-comment#:~:text=In%20Python%2C%20single%2Dline%20comments,and%20Why%20Are%20the%20Important.)
 
 
 **GENERAL EDUCATIONAL VIDEOS / LINKS ON PYTHON THAT WERE USEFUL:**
