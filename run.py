@@ -69,7 +69,7 @@ def ask_questions(name):
         "QUESTION 3: How often do you have problems remembering "
         "appointments \nor obligations?\n",
         "QUESTION 4: When you have a task that requires a lot of "
-        "thought, how often\n do you avoid or delay getting started?\n",
+        "thought, how often\ndo you avoid or delay getting started?\n",
         "QUESTION 5: How often do you fidget or squirm with your "
         "hands or \nfeet when you have to sit down for a long time?\n",
         "QUESTION 6: How often do you feel overly active and compelled "
@@ -134,15 +134,16 @@ def ask_questions(name):
         print(f"{name} you scored {total_score}. \nYour high score shows "
               "indicative symptoms \nconsistent with ADHD in adults. We "
               "highly \nrecommend you look into this further.")
+    print("------------------------------------------------------------\n")
 
 
 print("---------------------------------------------------------------------")
-print(".              Welcome to the ADHD Assessment Tool                 \n")
+print("               Welcome to the ADHD Assessment Tool                 \n")
 print("                   For people 17 years & over                      \n")
 print("---------------------------------------------------------------------")
 print(Fore.RED +"                            IMPORTANT      \n")
 print(
-    " This program was developed as a coding educational challenge \nand is "
+    "This program was developed as a coding educational challenge \nand is "
     "NOT an accurate ADHD diagnostic tool. \nContact your GP if you are "
     "concerned about ADHD. \n"
 )
