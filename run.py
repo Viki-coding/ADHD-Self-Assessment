@@ -137,10 +137,10 @@ def ask_questions(name):
 
 
 print("---------------------------------------------------------------------")
-print("               Welcome to the ADHD Assessment Tool                 \n")
+print(Fore.BLUE +"    Welcome to the ADHD Assessment Tool                 \n")
 print("                   For people 17 years & over                      \n")
 print("---------------------------------------------------------------------")
-print("----------------------     IMPORTANT    ---------------------------\n")
+print(Fore.RED +"-----------        IMPORTANT      -------------------------\n")
 print(
     " This program was developed as a coding educational challenge \nand is "
     "NOT an accurate ADHD diagnostic tool. \nContact your GP if you are "
