@@ -152,4 +152,9 @@ print("------* TO RESTART PROGRAM - PRESS RED RUN PROGRAM BUTTON *--------\n")
 print("-------------------------------------------------------------------\n")
 
 if __name__ == "__main__":
-    run()
+     while True:
+            run()
+            restart = input("Do you want to restart the program? (Yes/No): ").strip().lower()
+            if restart != "yes":
+                print("Goodbye!")
+                break
