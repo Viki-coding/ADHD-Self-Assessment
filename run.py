@@ -137,10 +137,10 @@ def ask_questions(name):
 
 
 print("---------------------------------------------------------------------")
-print(Fore.BLUE +"    Welcome to the ADHD Assessment Tool                 \n")
+print(".              Welcome to the ADHD Assessment Tool                 \n")
 print("                   For people 17 years & over                      \n")
 print("---------------------------------------------------------------------")
-print(Fore.RED +"-----------        IMPORTANT      -------------------------\n")
+print(Fore.RED +"                            IMPORTANT      \n")
 print(
     " This program was developed as a coding educational challenge \nand is "
     "NOT an accurate ADHD diagnostic tool. \nContact your GP if you are "
@@ -148,13 +148,13 @@ print(
 )
 print("-------------------------------------------------------------------\n")
 
-
+def main():
+    while True:
+        run()
+        retry = input("Do you want to run the program again? (y/n): ").lower()
+        if retry != "y":
+            print ("Goodbye!")
+            break
 
 if __name__ == "__main__":
-     while True:
-            run()
-            print("-------------------------------------------------------------------\n")
-            restart = input("Do you want to restart the program? (Y or N): ").strip().lower()
-            if restart != "Y":
-                print("Goodbye!")
-                break
+    main()
