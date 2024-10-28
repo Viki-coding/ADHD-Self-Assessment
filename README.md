@@ -155,6 +155,12 @@ If they have symptoms they are advised to look into it further.
 
 ![RESULTS](https://github.com/user-attachments/assets/01fcc25c-8df1-422e-b7e6-dd6096490a2f)
 
+
+If they would like to take the test again the user inserts a Y or lowercase y to start the program again.
+
+![Screenshot 2024-10-28 at 16 42 33](https://github.com/user-attachments/assets/c332b016-27b3-45b6-9de2-0a91d8e8448e)
+
+
 <h2>Future Implementation Section</h2>
 
  - Include the 12 extra questions that have been develped by th American ADHD Assocation and W.H.O. to develop the questionnaire to be a more accurate assessment tool in a google sheet linking them to the program.
