@@ -155,6 +155,6 @@ if __name__ == "__main__":
      while True:
             run()
             restart = input("Do you want to restart the program? (Yes/No): ").strip().lower()
-            if restart != "yes":
+            if restart != "yes" or "y":
                 print("Goodbye!")
                 break
