@@ -107,9 +107,9 @@ def ask_questions(name):
                 print(Fore.RED + "Invalid, please enter A, B, C, D or E")
     # Display if user has symptoms that are consistent with ADHD depending on
     # the score range
-    print(" -----------------------------------------------------------------")
-    print(" --------------------       RESULTS    ---------------------------")
-    print(" -----------------------------------------------------------------\n")
+    print(" ---------------------------------------------------------------")
+    print(" --------------------       RESULTS    -------------------------")
+    print(" ---------------------------------------------------------------\n")
     if 0 <= total_score <= 3:
         print(f"{name} you scored {total_score}. \nYou do NOT have any "
               "symptoms that are consistent with ADHD")
