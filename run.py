@@ -144,14 +144,15 @@ print("-------------------------------------------------------------------\n")
 def main():
     """
     Give the user the option of retrying the questions.
-    User input: enter 'Y' or 'y' to retry and exits inner loop. 
+    User input: enter 'Y' or 'y' to retry and exits inner loop.
     If users selects 'n':return: String Goodbye message.
-    Otherwise perform error handling when invalid data entered. 
+    Otherwise perform error handling when invalid data entered.
     """
     while True:
         run()
         while True:
-            retry = input("Do you want to run the program again? (y/n): ").lower()
+            retry = input("Do you want to run the program again? "
+                          "(y/n): ").lower()
             if retry == "n":
                 print("Goodbye!")
                 return
@@ -161,6 +162,7 @@ def main():
                 print("You must enter 'y' or 'n'")
             else:
                 print("Invalid input. Please enter 'y' or 'n'.")
+
 
 if __name__ == "__main__":
     main()
