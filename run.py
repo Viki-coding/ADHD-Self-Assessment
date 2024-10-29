@@ -109,7 +109,7 @@ def ask_questions(name):
     # the score range
     print(" -----------------------------------------------------------------")
     print(" --------------------       RESULTS    ---------------------------")
-    print(" ---------------------------------------------------------------\n")
+    print(" -----------------------------------------------------------------\n")
     if 0 <= total_score <= 3:
         print(f"{name} you scored {total_score}. \nYou do NOT have any "
               "symptoms that are consistent with ADHD")
@@ -131,6 +131,7 @@ def ask_questions(name):
 print("---------------------------------------------------------------------")
 print("               Welcome to the ADHD Assessment Tool                 \n")
 print("                   For people 17 years & over                      \n")
+print("             Answer these six questions to get your score          \n")
 print("---------------------------------------------------------------------")
 print("                         IMPORTANT\n")
 print(
