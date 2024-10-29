@@ -36,7 +36,7 @@ The user is asked 6 questions with the following options:
   - D. Often
   - E. Very Often
    
-     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response, creating a familiar interactive understanding, eliciting a postive user experience.  
+     These 5 options (a, b, c, d & e) remain the same, creating a clear and concise user required response, creating a familiar interactive understanding, eliciting a positive user experience.  
      
      Each response is scored, at the end of the questionnaire all scores are added up and the result is displayed as a score with some advice to the user.  The results indicate if the user has/has not symptoms that may indicate they have ADHD. 
      
@@ -87,7 +87,7 @@ Unfortunatley in Ireland the waiting lists for educational psychologists and psy
 <h2>Design Choices</h2>
 
 **Layout:**
-The questions and content are laid out logically and clearly to allow intuitive interaction while giving user feedback.  It is clear to see which question is being displayed and the users response is displayed under that question. We used colorama to highlight error handling responses in the age and name input fields.
+The questions and content are laid out logically and clearly to allow intuitive interaction while giving user feedback.  It is clear to see which question is being displayed and the users response is displayed under that question. We used colorama to highlight error handling responses in any user input fields.
 
 At the start of our project we created a Flowchart.  The flowchart shows the flow of the program and indicates the decisions the user needs to make in order to take them to the next step.  The flowchart indicates the loops used to manage error handlings such as invalid value inputs. 
 
@@ -101,22 +101,21 @@ The use of lines in the program helps to distinguish the beginning of the progra
 
 
 
-
+Please note that I tried to update by lucid chart to include the 'Retry questions' but I was out of free shapes for the lucid document and was not in a position to sign up for a free trial.
 
 <h3>FEATURES</h3>
 
 **Welcome & Instructions**
-This program offers the user clear and informative instructions to begin the program, the age you should be and how to restart the program if required.  A warning that this is not a formal diagnosis is also mentioned here. 
+This program offers the user clear and informative instructions to begin the program and indicates that you should be over 17 to do the test.  A disclaimer that this is not a formal diagnosis is also mentioned here. 
 
 
-![Welcome and Instructions](https://github.com/user-attachments/assets/d3da624e-4ac0-45d3-be63-87921fd92c10)
+![Welcome and Instruction V3](https://github.com/user-attachments/assets/8082f123-ba5b-4125-aba1-6840dccb6e12)
+
+<h3>Error Handling with Age and Name user input fields: </h3>
+
 
 **Age Validation**
 The program begins with asking the user to enter their age and press return.  The user must be over 17 years old to use this program.  If a user puts in an age <17 or older than >110 a print message is displayed to the user that you must be at least 17 to do this assessment.  If they are older than 110 we tell them they are too old to worry about ADHD. The program then returns the question asking how old they are, if no input is made the program indicates that they must input a value.  Once the user has entered a valid input the program proceeds to the next step - Name input. 
-
-
-![Screenshot 2024-10-23 at 18 30 51](https://github.com/user-attachments/assets/7c34b156-7d61-459e-accf-3c48adf1d2c3)
-
 
 **Name Validation**
 The user is then asked their first name. This {name} value will be utilised when we give the user their results to make it a more personal experience.  
@@ -124,10 +123,10 @@ The user is then asked their first name. This {name} value will be utilised when
 If a user puts in numbers then an error message is printed that the input must be valid letters only.  If the user does not enter any value an error message is printed that they must enter their name before moving onto the first question. 
 
 
-![Error handling name and age](https://github.com/user-attachments/assets/4d0cac78-fd32-4d18-b48b-c16c678ae898)
+![Screenshot 2024-10-29 at 13 22 50](https://github.com/user-attachments/assets/40200b04-1652-4f2a-8384-1b7c82aa0db6)
 
 
-**Questions**
+<h3>Questions</h3>
 There are 6 questions.  The responses are always the same making a good repetitive feedback response for the user to use. The user inserts the letter that they feel most reflects their response to each question.  The user can see which letter they have entered and then press return to enter their score and proceed to the next question. 
 
 After question 6 the responses are calculated and a diagnosis is delivered.
@@ -145,8 +144,12 @@ After question 6 the responses are calculated and a diagnosis is delivered.
 ![Question 6](https://github.com/user-attachments/assets/7e6911c9-1404-433b-acff-fe40e77baff1)
 
 
+IF the user enters an invalid response or no response a error print message is displayed:
 
-**RESULTS**
+![Questions with invalid responses](https://github.com/user-attachments/assets/db328916-3605-44ac-9a33-275c07ec28e2)
+
+
+<h3>RESULTS</h3>
 The results are based on the responses the user has made as shown above in the scoring description. This will be valuable to the user to inform them of their score and diagnosis so that they can proceed or not with seeking a healthcare professional for a formal diagnosis. 
 
 A print comment is displayed using the users first name and their total score indicating whether they have ADHD, have mild symptoms of ADHD, have symptoms of ADHD or have shown a high scoring indicating they have ADHD.
@@ -159,6 +162,11 @@ If they have symptoms they are advised to look into it further.
 If they would like to take the test again the user inserts a Y or lowercase y to start the program again.
 
 ![Screenshot 2024-10-28 at 16 42 33](https://github.com/user-attachments/assets/c332b016-27b3-45b6-9de2-0a91d8e8448e)
+
+
+If they input invalid data an error print message will be displayed, if they choose not to run the program again a 'Goodbye' print message will be displayed:
+
+![Retry Quiz](https://github.com/user-attachments/assets/948c416f-27d4-45e3-a7d8-2654039b7330)
 
 
 <h2>Future Implementation Section</h2>
@@ -179,8 +187,10 @@ If they would like to take the test again the user inserts a Y or lowercase y to
 * CI Python Linter to check for white space and character length.
 * Online IDE checker  - for checking pieces of code worked. [IDE Checker] (https://www.online-ide.com/online_python_syntax_checker)
 * Colorama 
+* YouTube
 
- <h2>Quality Assurance & User Experience Assurance</h2>
+
+<h2>Quality Assurance & User Experience Assurance</h2>
 
 We took a systematic and structural approach to manually test each feature to ensure it functions correctly and to help identify potential bugs. We created a specific testing template to ensure and re-check all aspects of the quiz were working correctly as specified with expected and actual outcomes using a methodical approach. We did final testing on the deployed site to ensure our users have a smooth experience by addressing potential issues. 
 
@@ -324,9 +334,25 @@ During the testing I inserted a mixture of numbers and letters with the name inp
 
 &nbsp;
 
+<h4>BUG 6 - Error handling and Runnning Program Again </h4>
+After speaking to my mentor, he recommended to allow the user to  'Retry questions' option at the end.  I did this and it worked well, until I tested it and realised that I did not perform correct error handling. 
 
 
+![Screenshot 2024-10-29 at 11 58 49](https://github.com/user-attachments/assets/63a8bc9a-87c5-443c-aba0-6a560d803d81)
 
+
+So then I entered various error handling methods, then when I tested it I realised that even if I did enter invalid errors - it displayed the error print string but ran the program.  
+
+
+![Screenshot 2024-10-29 at 11 58 57](https://github.com/user-attachments/assets/0fb58e78-f5a7-4386-b49c-a69dc2a66393)
+
+
+I understood is was the run() function incorrectly positioned, after a long while trying to figure it out I created an inner loop to retry the users input until a valid input was inserted. I entered a break after the user entered 'Y' to break out of the inner nested loop and continue to run and when the user entered 'N' I used a return rather than a break to exit the function and stop the program running. 
+
+<h4>BUG 7 - Strip method </h4>
+When doing some final testing I entered my name and automatically pressed space which then printed an error message telling me 'Name should only contain letters', which it did but also 1 space after it too. I then used the strip method on any data entry points to fix this bug. 
+
+![Screenshot 2024-10-29 at 12 39 55](https://github.com/user-attachments/assets/0403d39a-3e34-4786-b8a5-a1102dd84cb7)
 
 <h2>Deployment Steps</h2>
 
@@ -353,7 +379,7 @@ During the testing I inserted a mixture of numbers and letters with the name inp
 * Click on the DEPLOY Tab
 * Choose the GitHub deployment method
 * Confirm that you want to connect to GitHub, GitHub will request your password to connect. 
-* Click in repo name  and Search for your repository name and select connect. 
+* Click in repo name  and Search for your repository name and select connect. (https://github.com/Viki-coding/ADHD-Self-Assessment)
 * Select Enable Automatic Deploys 
 * Check Choose a branch to deploy is defaulted is MAIN
 * Click on Display Branch 
@@ -429,6 +455,12 @@ Understanding python doc strings and single line comments
 [Simplilearn: What is a Multiline Comment in Python?]
 (https://www.simplilearn.com/tutorials/python-tutorial/what-is-a-multiline-comment#:~:text=In%20Python%2C%20single%2Dline%20comments,and%20Why%20Are%20the%20Important.)
 
+Understanding python strip method:
+[W3 Schools] (https://www.w3schools.com/python/ref_string_strip.asp)
+
+Understanding nested while loops:
+[PYnative Python Programming](https://pynative.com/python-nested-loops/)
+
 
 **GENERAL EDUCATIONAL VIDEOS / LINKS ON PYTHON THAT WERE USEFUL:**
 
@@ -479,7 +511,7 @@ Definition of ADHD  [From ADHD Ireland] (https://adhdireland.ie/general-informat
 This program is not an accurate diagnostic tool.  In this educational coding project I have only used the first 6 questions on the questionnaire which can tell the patient has symptoms that are highly consistent with ADHD and require further investigation. In the full questionnaire it is advised to answer a further 12 questions, but I felt that was too many for this particular project. 
 
 <h2>Legal & Ethical Compliance</h2>
-This project is for educational coding purposes only. It is not a formal diagnostic tool for ADHD. This information also displayed on welcome screen when project first launches. 
+This project is for educational coding purposes only. It is not a formal diagnostic tool for ADHD. This information is also displayed on welcome screen when project first launches. 
 
 
 
