@@ -155,14 +155,14 @@ def main():
             retry = input("Do you want to run the program again? "
                           "(y/n): ").lower().strip()
             if retry == "n":
-                print("Goodbye!")
+                print(Fore.BLUE + "Goodbye!")
                 return
             elif retry == "y":
                 break
             elif retry == "":
-                print("You must enter 'y' or 'n'")
+                print(Fore.RED + "You must enter 'y' or 'n'")
             else:
-                print("Invalid input. Please enter 'y' or 'n'.")
+                print(Fore.RED + "Invalid input. Please enter 'y' or 'n'.")
 
 
 if __name__ == "__main__":
