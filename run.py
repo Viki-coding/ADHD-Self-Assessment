@@ -10,7 +10,7 @@ def get_age():
     Run a while loop to collect valid string of data from the user
     """
     while True:
-        age = input("Enter your age and press return:  \n")
+        age = input("Enter your age and press return:  \n").strip()
         try:
             age = int(age)
             return age
@@ -25,7 +25,7 @@ def get_name():
     :return: string representing users name
     """
     while True:
-        name = input("What is your first name?  \n")
+        name = input("What is your first name?  \n").strip()
         if name == "":
             print(Fore.RED + "You did not enter your name!")
         elif not name.isalpha():
@@ -99,7 +99,7 @@ def ask_questions(name):
         for option in options:
             print(option)
         while True:
-            response = input("\n Enter A, B, C, D, or E:  ").lower()
+            response = input("\n Enter A, B, C, D, or E:  ").lower().strip()
             if response in scoring:
                 total_score += scoring[response]
                 break
@@ -153,7 +153,7 @@ def main():
         run()
         while True:
             retry = input("Do you want to run the program again? "
-                          "(y/n): ").lower()
+                          "(y/n): ").lower().strip()
             if retry == "n":
                 print("Goodbye!")
                 return
