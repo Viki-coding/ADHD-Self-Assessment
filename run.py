@@ -131,7 +131,7 @@ def ask_questions(name):
 print("---------------------------------------------------------------------")
 print("               Welcome to the ADHD Assessment Tool                 \n")
 print("                   For people 17 years & over                      \n")
-print("             Answer these six questions to get your score          \n")
+print("             Answer six questions to get your score          \n")
 print("---------------------------------------------------------------------")
 print("                         IMPORTANT\n")
 print(
